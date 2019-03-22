@@ -1,0 +1,2011 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Angular Bootstrap Date/Time Picker</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">Angular Bootstrap Date/Time Picker</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>DlDateTimePickerComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#readme" role="tab" id="readme-tab" data-toggle="tab" data-link="readme">README</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/lib/dl-date-time-picker/dl-date-time-picker.component.ts</code>
+</p>
+
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>Component that provides all of the user facing functionality of the date/time picker.</p>
+
+    </p>
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnChanges" target="_blank" >OnChanges</a></code>
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                    <code><a href="https://angular.io/api/forms/ControlValueAccessor" target="_blank" >ControlValueAccessor</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+            <tr>
+                <td class="col-md-3">changeDetection</td>
+                <td class="col-md-9"><code>ChangeDetectionStrategy.OnPush</code></td>
+            </tr>
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">preserveWhitespaces</td>
+                <td class="col-md-9"><code>false</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">providers</td>
+                <td class="col-md-9">
+                                <code><a href="../components/DlDateTimePickerComponent.html" target="_self" >{
+    provide: NG_VALUE_ACCESSOR, useExisting: DlDateTimePickerComponent, multi: true
+}</a></code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>dl-date-time-picker</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./dl-date-time-picker.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./dl-date-time-picker.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#leftIconClass">leftIconClass</a>
+                            </li>
+                            <li>
+                                <a href="#maxView">maxView</a>
+                            </li>
+                            <li>
+                                <a href="#minuteStep">minuteStep</a>
+                            </li>
+                            <li>
+                                <a href="#minView">minView</a>
+                            </li>
+                            <li>
+                                <a href="#rightIconClass">rightIconClass</a>
+                            </li>
+                            <li>
+                                <a href="#selectFilter">selectFilter</a>
+                            </li>
+                            <li>
+                                <a href="#startDate">startDate</a>
+                            </li>
+                            <li>
+                                <a href="#startView">startView</a>
+                            </li>
+                            <li>
+                                <a href="#upIconClass">upIconClass</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#change">change</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+                    <tr>
+                        <td class="col-md-4">
+                            <h6><b>Accessors</b></h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <ul class="index-list">
+                                <li>
+                                    <a href="#value">value</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(_elementRef: <a href="https://angular.io/api/core/ElementRef" target="_blank">ElementRef</a>, _ngZone: <a href="https://angular.io/api/core/NgZone" target="_blank">NgZone</a>, _dateAdapter: <a href="../classes/DlDateAdapter.html">DlDateAdapter<D></a>, yearModelComponent: <a href="../classes/DlYearModelProvider.html">DlYearModelProvider</a>, monthModelComponent: <a href="../classes/DlMonthModelProvider.html">DlMonthModelProvider</a>, dayModelComponent: <a href="../classes/DlDayModelProvider.html">DlDayModelProvider</a>, hourModelComponent: <a href="../classes/DlHourModelProvider.html">DlHourModelProvider</a>, minuteModelComponent: <a href="../classes/DlMinuteModelProvider.html">DlMinuteModelProvider</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="264" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:264</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Used to construct a new instance of a date/time picker.</p>
+</div>
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>_elementRef</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <code><p>reference to this element.</p>
+</code>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>_ngZone</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/core/NgZone" target="_blank" >NgZone</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <code><p>reference to an NgZone instance used to select the active element outside of angular.</p>
+</code>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>_dateAdapter</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../classes/DlDateAdapter.html" target="_self" >DlDateAdapter&lt;D&gt;</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <code><p>date adapter for the date type in the model.</p>
+</code>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>yearModelComponent</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../classes/DlYearModelProvider.html" target="_self" >DlYearModelProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <code><p>provider for the year view model.</p>
+</code>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>monthModelComponent</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../classes/DlMonthModelProvider.html" target="_self" >DlMonthModelProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <code><p>provider for the month view model.</p>
+</code>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>dayModelComponent</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../classes/DlDayModelProvider.html" target="_self" >DlDayModelProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <code><p>provider for the day view model.</p>
+</code>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>hourModelComponent</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../classes/DlHourModelProvider.html" target="_self" >DlHourModelProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <code><p>provider for the hour view model.</p>
+</code>
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>minuteModelComponent</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../classes/DlMinuteModelProvider.html" target="_self" >DlMinuteModelProvider</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                        <td>
+                                                                <code><p>provider for the minute view model.</p>
+</code>
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="leftIconClass"></a>
+                        <b>leftIconClass</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>string | string[] | Set&lt;string&gt; | literal type</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    &#x27;oi&#x27;,
+    &#x27;oi-chevron-left&#x27;
+  ]</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="187" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:187</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Specifies the classes used to display the left icon.</p>
+<p>This component uses OPENICONIC https://useiconic.com/open
+by default but any icon library may be used.</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="maxView"></a>
+                        <b>maxView</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>&quot;year&quot; | &quot;month&quot; | &quot;day&quot; | &quot;hour&quot; | &quot;minute&quot;</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;year&#x27;</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="197" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:197</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>The highest view that the date/time picker can show.
+Setting this to a view less than year could make it more
+difficult for the end-user to navigate to certain dates.</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="minuteStep"></a>
+                        <b>minuteStep</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>5</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="218" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:218</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>The number of minutes between each <code>.dl-abdtp-minute</code> button.</p>
+<p>Must be greater than <code>0</code> and less than <code>60</code>.</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="minView"></a>
+                        <b>minView</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>&quot;year&quot; | &quot;month&quot; | &quot;day&quot; | &quot;hour&quot; | &quot;minute&quot;</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;minute&#x27;</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="211" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:211</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>The view that will be used for date/time selection.</p>
+<p>The default of <code>minute  means that selection will not happen
+   * until the end-user clicks on a cell in the minute view.
+   *
+   * for example, if you want the end-user to select a only day (date),
+   * setting</code>minView<code>to</code>day<code>will cause selection to happen when the
+   * end-user selects a cell in the day view.
+   *
+   * NOTE: This must be set lower than or equal to</code>startView&#39;</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="rightIconClass"></a>
+                        <b>rightIconClass</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    &#x27;oi&#x27;,
+    &#x27;oi-chevron-right&#x27;
+  ]</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="226" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:226</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Specifies the classes used to display the right icon.</p>
+<p>This component uses OPENICONIC https://useiconic.com/open
+by default but any icon library may be used.</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selectFilter"></a>
+                        <b>selectFilter</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/function" target="_blank" >function</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; true</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="236" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:236</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Determine whether or not the <code>DateButton</code> is selectable by the end user.</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="startDate"></a>
+                        <b>startDate</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="242" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:242</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Start at the view containing startDate when no value is selected.</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="startView"></a>
+                        <b>startView</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>&quot;year&quot; | &quot;month&quot; | &quot;day&quot; | &quot;hour&quot; | &quot;minute&quot;</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;day&#x27;</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="252" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:252</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>The initial view that the date/time picker will show.
+The picker will also return to this view after a date/time
+is selected.</p>
+<p>NOTE: This must be set lower than or equal to `maxView&#39;
+   *</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="upIconClass"></a>
+                        <b>upIconClass</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    &#x27;oi&#x27;,
+    &#x27;oi-chevron-top&#x27;
+  ]</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="261" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:261</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Specifies the classes used to display the up icon.</p>
+<p>This component uses OPENICONIC https://useiconic.com/open
+by default but any icon library may be used.</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+    <section>
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="change"></a>
+                        <b>change</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="179" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:179</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Emits when a <code>change</code> event when date/time is selected or
+the value of the date/time picker changes.</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+    <section>
+    <h3 id="accessors">
+        Accessors
+    </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="value"></a>
+                        <span class="name"><b>value</b><a href="#value"><span class="icon ion-ios-link"></span></a></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>get</b><code>value()</code></span>
+                    </td>
+                </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="317" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:317</a></div>
+                                </td>
+                            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Returns <code>D</code> value of the date/time picker or undefined/null if no value is set.</p>
+</div>
+
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code>D</code>
+
+                                </div>
+                        </td>
+                    </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>set</b><code>value(value)</code></span>
+                    </td>
+                </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="325" class="link-to-prism">src/lib/dl-date-time-picker/dl-date-time-picker.component.ts:325</a></div>
+                                </td>
+                            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Sets value of the date/time picker and emits a change event if the
+new value is different from the previous value.</p>
+</div>
+
+                                <div class="io-description">
+                                        <b>Parameters :</b>
+                                        <table class="params">
+                                            <thead>
+                                                <tr>
+                                                    <td>Name</td>
+                                                    <td>Optional</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                    <tr>
+                                                            <td>value</td>
+                                                    
+                                                    
+                                                        <td>
+                                                                No
+                                                        </td>
+                                                        
+                                                    </tr>
+                                            </tbody>
+                                        </table>
+                                </div>
+                                <div>
+                                </div>
+                                <div class="io-description">
+                                    <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                                </div>
+                        </td>
+                    </tr>
+            </tbody>
+        </table>
+</section>
+</div>
+
+    <div class="tab-pane fade " id="c-readme">
+        <p><p>This Component provides all of the user facing functionality of the date/time picker.</p>
+<h2 id="keyboard-accessibility">Keyboard Accessibility</h2>
+<p>The following keyboard shortcuts are supported in in all views:</p>
+<p>| Shortcut             | Action                                          |
+|----------------------|-------------------------------------------------|
+| <code>LEFT_ARROW</code>         | Go to the cell to the left                      |
+| <code>RIGHT_ARROW</code>        | Go to the cell to the right                     |
+| <code>UP_ARROW</code>           | Go to the cell above                            |
+| <code>DOWN_ARROW</code>         | Go to the cell below                            |
+| <code>HOME</code>               | Go to the first cell in the view                |
+| <code>END</code>                | Go to the last cell in the view                 |
+| <code>PAGE_UP</code>            | Go to the same cell in the previous time period |
+| <code>PAGE_DOWN</code>          | Go to the same cell in the next time period     |
+| <code>ENTER</code> or <code>SPACE</code>   | Select current cell                             |</p>
+<h2 id="supported-date-types">Supported date types</h2>
+<p>Import the module corresponding to the desired data type of the date in the model.
+* Native JavaScript Date: import <code>DlDateTimePickerDateModule</code>
+* Moment Date: import <code>DlDateTimePickerMomentModule</code>
+* Milliseconds (local): import <code>DlDateTimePickerNumberModule</code>
+* String (local): import <code>DlDateTimePickerStringModule</code></p>
+<p>A <code>DateAdapter</code> is used to adapt the data type in the model to the <code>number</code> data type 
+used internally by the date/time picker.</p>
+<p>If you need a different data type than what is currently supported, you can extend 
+<code>DlDateAdapter&lt;D&gt;</code> to provide the data type you need then override the <code>DlDateAdapter</code> 
+provider in <code>app.module.ts</code> to use your new class. </p>
+<p><code>providers: [{provide: DlDateAdapter, useClass: MyCustomDateAdapter}],</code></p>
+<h3 id="string-date-adapter-formats">String Date Adapter Formats</h3>
+<p>The input and output formats for dates are injected into the <code>DlDateAdapterString</code> class 
+using the <code>DL_STRING_DATE_INPUT_FORMATS</code> and <code>DL_STRING_DATE_OUTPUT_FORMAT</code> tokens.</p>
+<p><code>DL_STRING_DATE_OUTPUT_FORMAT</code> defaults to <code>moment</code>&#39;s <code>lll</code> long date format.</p>
+<p><code>DL_STRING_DATE_INPUT_FORMATS</code> defaults to the following:
+<code>typescript
+[
+  moment.localeData().longDateFormat(&#39;lll&#39;),
+  &#39;YYYY-MM-DDTHH:mm&#39;,
+  &#39;YYYY-MM-DDTHH:mm:ss&#39;,
+  &#39;YYYY-MM-DDTHH:mm:ss.SSS&#39;,
+  &#39;YYYY-MM-DD&#39;,
+  &#39;YYYY-MM-DDTHH:mm:ss.SSS[Z]&#39; // ISO_8601
+]</code></p>
+<p>If you want different formats, override the injection tokens in <code>app.module.ts</code> 
+i.e <code>{provide: DL_STRING_DATE_OUTPUT_FORMAT, useValue: &#39;&lt;what ever format you want goes here&gt;&#39;}</code> </p>
+<h2 id="model-provider">Model Provider</h2>
+<p><code>ModelProvider</code>s are used to create the <code>Model</code> for each of the <code>views</code> in the date/time picker.
+If your project has special requirements for one or more of the <code>views</code>, you may override 
+one or more of the model providers to meet your needs.</p>
+<h3 id="override-dlyearmodelprovider-to-display-25-years">Override <code>DlYearModelProvider</code> to display 25 years</h3>
+<p>For example, imagine you want the year view to display <code>25 years</code> rather than the default of 
+<code>10 years</code>, you can override the the <code>DlYearModelProvider</code> in your application so all date/time pickers
+display <code>25 years</code>  by doing the following:</p>
+<ol>
+<li><p>Test and implement <code>QuarterCenturyYearModelProvider</code></p>
+<p> It might look something like this: </p>
+<p> ```typescript
+ /**</p>
+<ul>
+<li><p>@license</p>
+</li>
+<li><p>Copyright 2013-present Dale Lotts All Rights Reserved.</p>
+</li>
+<li><p>http://www.dalelotts.com</p>
+</li>
+<li></li>
+<li><p>Use of this source code is governed by an MIT-style license that can be</p>
+</li>
+<li><p>found in the LICENSE file at https://github.com/dalelotts/angular-bootstrap-datetimepicker/blob/master/LICENSE</p>
+</li>
+<li><p>/</p>
+<p>import {DlDateTimePickerModel, DlModelProvider} from &#39;angular-bootstrap-datetimepicker&#39;;
+import {SimpleChanges} from &#39;@angular/core&#39;;
+import * as _moment from &#39;moment&#39;;
+import {Moment} from &#39;moment&#39;;</p>
+<p>/**</p>
+</li>
+<li><p>Work around for moment namespace conflict when used with webpack and rollup.</p>
+</li>
+<li><p>See https://github.com/dherges/ng-packagr/issues/163</p>
+</li>
+<li></li>
+<li><p>Depending on whether rollup is used, moment needs to be imported differently.</p>
+</li>
+<li><p>Since Moment.js doesn&#39;t have a default export, we normally need to import using</p>
+</li>
+<li><p>the <code>* as</code>syntax.</p>
+</li>
+<li></li>
+<li><p>rollup creates a synthetic default module and we thus need to import it using</p>
+</li>
+<li><p>the <code>default as</code> syntax.</p>
+</li>
+<li></li>
+<li><p>@internal</p>
+</li>
+<li><p>*/
+const moment = _moment;</p>
+<p>/**</p>
+</li>
+<li><p>Quarter century implementation for the <code>year</code> view.</p>
+</li>
+<li><p>/
+export class QuarterCenturyYearModelProvider implements DlModelProvider {</p>
+<p>/**</p>
+<ul>
+<li>Create a moment at midnight january 1 at the start of the quarter-century.</li>
+<li>The start of the quarter-century is always a year ending in zero or five.</li>
+<li></li>
+<li>@param fromMilliseconds</li>
+<li>the moment in time from which the start of the quarter-century will be determined.</li>
+<li>@returns</li>
+<li>moment at midnight january 1 at the start of the current quarter-century.</li>
+<li>@internal</li>
+<li>/
+private static getStartOfQuarterCentury(fromMilliseconds: number): Moment {
+const currentYear = moment(fromMilliseconds).year();
+const yearsToSubtract = currentYear % 25;
+return moment({year: currentYear - yearsToSubtract}).startOf(&#39;year&#39;);
+}</li>
+</ul>
+<p>/**</p>
+<ul>
+<li>Receives input changes detected by Angular.</li>
+<li></li>
+<li>@param changes</li>
+<li>the input changes detected by Angular.</li>
+<li>/
+onChanges(changes: SimpleChanges): void {
+}</li>
+</ul>
+<p>/**</p>
+<ul>
+<li><p>Returns the <code>year</code> model for the specified moment in <code>local</code> time with the</p>
+</li>
+<li><p><code>active</code> year set to January 1 of the specified year.</p>
+</li>
+<li></li>
+<li><p>The <code>year</code> model represents a quarter-century (25 years) as five rows with five columns.</p>
+</li>
+<li></li>
+<li><p>The quarter-century always starts on a year ending with zero or 5.</p>
+</li>
+<li></li>
+<li><p>Each cell represents midnight January 1 of the indicated year.</p>
+</li>
+<li></li>
+<li><p>The <code>active</code> year will be the January 1 of year of the specified milliseconds.</p>
+</li>
+<li></li>
+<li><p>@param milliseconds</p>
+</li>
+<li><p>the moment in time from which the year model will be created.</p>
+</li>
+<li><p>@param selectedMilliseconds</p>
+</li>
+<li><p>the current value of the date/time picker.</p>
+</li>
+<li><p>@returns</p>
+</li>
+<li><p>the model representing the specified moment in time.</p>
+</li>
+<li><p>/
+getModel(milliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+const rowNumbers = [0, 1, 2, 3, 4];
+const columnNumbers = [0, 1, 2, 3, 4];</p>
+<p>const startYear = moment(milliseconds).startOf(&#39;year&#39;);
+const startDate = QuarterCenturyYearModelProvider.getStartOfQuarterCentury(milliseconds);</p>
+<p>const futureYear = startDate.year() + 24;
+const pastYear = startDate.year();
+const activeValue = startYear.valueOf();
+const selectedValue = selectedMilliseconds === null || selectedMilliseconds === undefined
+  ? selectedMilliseconds
+  : moment(selectedMilliseconds).startOf(&#39;year&#39;).valueOf();</p>
+<p>const result: DlDateTimePickerModel = {
+  viewName: &#39;year&#39;,
+  viewLabel: <code>${pastYear}-${futureYear}</code>,
+  activeDate: activeValue,
+  leftButton: {</p>
+<div><pre class="line-numbers"><code class="language-none">value: moment(startDate).subtract(25, &#39;years&#39;).valueOf(),
+ariaLabel: `Go to ${pastYear - 25}-${pastYear - 1}`,
+classes: {},</code></pre></div><p>  },
+  rightButton: {</p>
+<div><pre class="line-numbers"><code class="language-none">value: moment(startDate).add(25, &#39;years&#39;).valueOf(),
+ariaLabel: `Go to ${futureYear + 1}-${futureYear + 25}`,
+classes: {},</code></pre></div><p>  },
+  rows: rowNumbers.map(rowOfYears.bind(this))
+};</p>
+<p>result.leftButton.classes[<code>${result.leftButton.value}</code>] = true;
+result.rightButton.classes[<code>${result.rightButton.value}</code>] = true;</p>
+<p>return result;</p>
+<p>function rowOfYears(rowNumber) {</p>
+<p>  const currentMoment = moment();
+  const cells = columnNumbers.map((columnNumber) =&gt; {</p>
+<div><pre class="line-numbers"><code class="language-none">const yearMoment = moment(startDate).add((rowNumber * columnNumbers.length) + columnNumber, &#39;years&#39;);
+return {
+  display: yearMoment.format(&#39;YYYY&#39;),
+  value: yearMoment.valueOf(),
+  classes: {
+    &#39;dl-abdtp-active&#39;: activeValue === yearMoment.valueOf(),
+    &#39;dl-abdtp-selected&#39;: selectedValue === yearMoment.valueOf(),
+    &#39;dl-abdtp-now&#39;: yearMoment.isSame(currentMoment, &#39;year&#39;),
+  }
+};</code></pre></div><p>  });
+  return {cells};
+}
+}</p>
+</li>
+</ul>
+<p>/**</p>
+<ul>
+<li>Move the active <code>year</code> one row <code>down</code> from the specified moment in time.</li>
+<li></li>
+<li>The <code>active</code> year will be the January 1 <code>five (5) years after</code> the specified milliseconds.</li>
+<li>This moves the <code>active</code> date one row <code>down</code> in the current <code>year</code> view.</li>
+<li></li>
+<li>Moving <code>down</code> can result in the <code>active</code> year being part of a different quarter-century than</li>
+<li>the specified <code>fromMilliseconds</code>, in this case the quarter-century represented by the model</li>
+<li>will change to show the correct quarter-century.</li>
+<li></li>
+<li>@param fromMilliseconds</li>
+<li>the moment in time from which the next <code>year</code> model <code>down</code> will be constructed.</li>
+<li>@param selectedMilliseconds</li>
+<li>the current value of the date/time picker.</li>
+<li>@returns</li>
+<li>model containing an <code>active</code> <code>year</code> one row <code>down</code> from the specified moment in time.</li>
+<li>/
+goDown(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+return this.getModel(moment(fromMilliseconds).add(5, &#39;year&#39;).valueOf(), selectedMilliseconds);
+}</li>
+</ul>
+<p>/**</p>
+<ul>
+<li>Move the active <code>year</code> one row <code>up</code> from the specified moment in time.</li>
+<li></li>
+<li>The <code>active</code> year will be the January 1 <code>five (5) years before</code> the specified milliseconds.</li>
+<li>This moves the <code>active</code> date one row <code>up</code> in the current <code>year</code> view.</li>
+<li></li>
+<li>Moving <code>up</code> can result in the <code>active</code> year being part of a different quarter-century than</li>
+<li>the specified <code>fromMilliseconds</code>, in this case the quarter-century represented by the model</li>
+<li>will change to show the correct quarter-century.</li>
+<li></li>
+<li>@param fromMilliseconds</li>
+<li>the moment in time from which the previous <code>year</code> model <code>up</code> will be constructed.</li>
+<li>@param selectedMilliseconds</li>
+<li>the current value of the date/time picker.</li>
+<li>@returns</li>
+<li>model containing an <code>active</code> <code>year</code> one row <code>up</code> from the specified moment in time.</li>
+<li>/
+goUp(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+return this.getModel(moment(fromMilliseconds).subtract(5, &#39;year&#39;).valueOf(), selectedMilliseconds);
+}</li>
+</ul>
+<p>/**</p>
+<ul>
+<li>Move the <code>active</code> <code>year</code> one (1) year to the <code>left</code> of the specified moment in time.</li>
+<li></li>
+<li>The <code>active</code> year will be the January 1 <code>one (1) year before</code> the specified milliseconds.</li>
+<li>This moves the <code>active</code> date one year <code>left</code> in the current <code>year</code> view.</li>
+<li></li>
+<li>Moving <code>left</code> can result in the <code>active</code> year being part of a different quarter-century than</li>
+<li>the specified <code>fromMilliseconds</code>, in this case the quarter-century represented by the model</li>
+<li>will change to show the correct quarter-century.</li>
+<li></li>
+<li>@param fromMilliseconds</li>
+<li>the moment in time from which the <code>year</code> model to the <code>left</code> will be constructed.</li>
+<li>@param selectedMilliseconds</li>
+<li>the current value of the date/time picker.</li>
+<li>@returns</li>
+<li>model containing an <code>active</code> <code>year</code> one year to the <code>left</code> of the specified moment in time.</li>
+<li>/
+goLeft(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+return this.getModel(moment(fromMilliseconds).subtract(1, &#39;year&#39;).valueOf(), selectedMilliseconds);
+}</li>
+</ul>
+<p>/**</p>
+<ul>
+<li>Move the <code>active</code> <code>year</code> one (1) year to the <code>right</code> of the specified moment in time.</li>
+<li></li>
+<li>The <code>active</code> year will be the January 1 <code>one (1) year after</code> the specified milliseconds.</li>
+<li>This moves the <code>active</code> date one year <code>right</code> in the current <code>year</code> view.</li>
+<li></li>
+<li>Moving <code>right</code> can result in the <code>active</code> year being part of a different quarter-century than</li>
+<li>the specified <code>fromMilliseconds</code>, in this case the quarter-century represented by the model</li>
+<li>will change to show the correct quarter-century.</li>
+<li></li>
+<li>@param fromMilliseconds</li>
+<li>the moment in time from which the <code>year</code> model to the <code>right</code> will be constructed.</li>
+<li>@param selectedMilliseconds</li>
+<li>the current value of the date/time picker.</li>
+<li>@returns</li>
+<li>model containing an <code>active</code> <code>year</code> one year to the <code>right</code> of the specified moment in time.</li>
+<li>/
+goRight(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+return this.getModel(moment(fromMilliseconds).add(1, &#39;year&#39;).valueOf(), selectedMilliseconds);
+}</li>
+</ul>
+<p>/**</p>
+<ul>
+<li>Move the active <code>year</code> one quarter-century <code>down</code> from the specified moment in time.</li>
+<li></li>
+<li>The <code>active</code> year will be the January 1 <code>ten (10) years after</code> the specified milliseconds.</li>
+<li>This moves the <code>active</code> date one <code>page</code> <code>down</code> from the current <code>year</code> view.</li>
+<li></li>
+<li>Paging <code>down</code> will result in the <code>active</code> year being part of a different quarter-century than</li>
+<li>the specified <code>fromMilliseconds</code>. As a result, the quarter-century represented by the model</li>
+<li>will change to show the correct quarter-century.</li>
+<li></li>
+<li>@param fromMilliseconds</li>
+<li>the moment in time from which the next <code>year</code> model page <code>down</code> will be constructed.</li>
+<li>@param selectedMilliseconds</li>
+<li>the current value of the date/time picker.</li>
+<li>@returns</li>
+<li>model containing an <code>active</code> <code>year</code> one quarter-century <code>down</code> from the specified moment in time.</li>
+<li>/
+pageDown(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+return this.getModel(moment(fromMilliseconds).add(25, &#39;year&#39;).valueOf(), selectedMilliseconds);
+}</li>
+</ul>
+<p>/**</p>
+<ul>
+<li>Move the active <code>year</code> one quarter-century <code>up</code> from the specified moment in time.</li>
+<li></li>
+<li>The <code>active</code> year will be the January 1 <code>ten (10) years before</code> the specified milliseconds.</li>
+<li>This moves the <code>active</code> date one <code>page-up</code> from the current <code>year</code> view.</li>
+<li></li>
+<li>Paging <code>up</code> will result in the <code>active</code> year being part of a different quarter-century than</li>
+<li>the specified <code>fromMilliseconds</code>. As a result, the quarter-century represented by the model</li>
+<li>will change to show the correct quarter-century.</li>
+<li></li>
+<li>@param fromMilliseconds</li>
+<li>the moment in time from which the next <code>year</code> model page <code>up</code> will be constructed.</li>
+<li>@param selectedMilliseconds</li>
+<li>the current value of the date/time picker.</li>
+<li>@returns</li>
+<li>model containing an <code>active</code> <code>year</code> one quarter-century <code>up</code> from the specified moment in time.</li>
+<li>/
+pageUp(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+return this.getModel(moment(fromMilliseconds).subtract(25, &#39;year&#39;).valueOf(), selectedMilliseconds);
+}</li>
+</ul>
+<p>/**</p>
+<ul>
+<li>Move the <code>active</code> <code>year</code> to the <code>last</code> year in the quarter-century.</li>
+<li></li>
+<li>The view or time range will not change unless the <code>fromMilliseconds</code> value</li>
+<li>is in a different quarter-century than the displayed quarter-century.</li>
+<li></li>
+<li>@param fromMilliseconds</li>
+<li>the moment in time from which the <code>last</code> active <code>year</code> will be calculated.</li>
+<li>@param selectedMilliseconds</li>
+<li>the current value of the date/time picker.</li>
+<li>@returns</li>
+<li>a model with the <code>last</code> cell in the view as the active <code>year</code>.</li>
+<li>/
+goEnd(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+return this.getModel(
+  QuarterCenturyYearModelProvider.getStartOfQuarterCentury(fromMilliseconds)<div><pre class="line-numbers"><code class="language-none">.add(24, &#39;years&#39;)
+.endOf(&#39;year&#39;)
+.valueOf(),</code></pre></div>  selectedMilliseconds
+);
+}</li>
+</ul>
+<p>/**</p>
+<ul>
+<li>Move the <code>active</code> <code>year</code> to the <code>first</code> year in the quarter-century.</li>
+<li></li>
+<li>The view or time range will not change unless the <code>fromMilliseconds</code> value</li>
+<li>is in a different quarter-century than the displayed quarter-century.</li>
+<li></li>
+<li>@param fromMilliseconds</li>
+<li>the moment in time from which the <code>first</code> active <code>year</code> will be calculated.</li>
+<li>@param selectedMilliseconds</li>
+<li>the current value of the date/time picker.</li>
+<li>@returns</li>
+<li>a model with the <code>first</code> cell in the view as the active <code>year</code>.</li>
+<li>/
+goHome(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+return this.getModel(
+  QuarterCenturyYearModelProvider.getStartOfQuarterCentury(fromMilliseconds)<div><pre class="line-numbers"><code class="language-none">.startOf(&#39;year&#39;)
+.valueOf(),</code></pre></div>  selectedMilliseconds
+);
+}
+}
+```</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Override <code>DlYearModelProvider</code> with <code>QuarterCenturyYearModelProvider</code> in app.module.ts</p>
+<p> ```typescript
+   providers: [</p>
+<div><pre class="line-numbers"><code class="language-none"> FormsModule,
+ {provide: DlYearModelProvider, useClass: QuarterCenturyYearModelProvider}</code></pre></div><p>   ]
+ ```
+ This will result in <code>QuarterCenturyYearModelProvider</code> being used in every instance of the date/time
+ picker in your application. </p>
+</li>
+</ol>
+<p>This approach can be extended to any of the <code>ModelProvider</code>&#39;s for a view.</p>
+<p>For example, imagine you need a time picker that only displays certain hours of the day. You can implement 
+an <code>HourModelProvider</code> that has the exact functionality you need without having the write the entire 
+component yourself.  </p>
+</p>
+    </div>
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {
+  ChangeDetectionStrategy,
+  Component,
+  ElementRef,
+  EventEmitter,
+  Input,
+  NgZone,
+  OnChanges,
+  OnInit,
+  Output,
+  SimpleChanges
+} from &#x27;@angular/core&#x27;;
+
+import {ControlValueAccessor, NG_VALUE_ACCESSOR} from &#x27;@angular/forms&#x27;;
+import * as _moment from &#x27;moment&#x27;;
+import {take} from &#x27;rxjs/operators&#x27;;
+import {DlDateAdapter} from &#x27;../core&#x27;;
+import {DlDateTimePickerChange} from &#x27;./dl-date-time-picker-change&#x27;;
+import {DateButton} from &#x27;./dl-date-time-picker-date-button&#x27;;
+import {DlDateTimePickerModel} from &#x27;./dl-date-time-picker-model&#x27;;
+import {DlModelProvider} from &#x27;./dl-model-provider&#x27;;
+import {DlDayModelProvider} from &#x27;./dl-model-provider-day&#x27;;
+import {DlHourModelProvider} from &#x27;./dl-model-provider-hour&#x27;;
+import {DlMinuteModelProvider} from &#x27;./dl-model-provider-minute&#x27;;
+import {DlMonthModelProvider} from &#x27;./dl-model-provider-month&#x27;;
+import {DlYearModelProvider} from &#x27;./dl-model-provider-year&#x27;;
+
+/**
+ * Work around for moment namespace conflict when used with webpack and rollup.
+ * See https://github.com/dherges/ng-packagr/issues/163
+ *
+ * Depending on whether rollup is used, moment needs to be imported differently.
+ * Since Moment.js doesn&#x27;t have a default export, we normally need to import using
+ * the &#x60;* as&#x60;syntax.
+ *
+ * rollup creates a synthetic default module and we thus need to import it using
+ * the &#x60;default as&#x60; syntax.
+ *
+ * @internal
+ **/
+const moment &#x3D; _moment;
+
+
+/**
+ * Maps key codes to the model provider function name
+ * that should be called to perform the action.
+ *
+ * @internal
+ **/
+
+const keyCodeToModelProviderMethod &#x3D; {
+  &#x27;ArrowDown&#x27;: &#x27;goDown&#x27;,
+  &#x27;ArrowLeft&#x27;: &#x27;goLeft&#x27;,
+  &#x27;ArrowRight&#x27;: &#x27;goRight&#x27;,
+  &#x27;ArrowUp&#x27;: &#x27;goUp&#x27;,
+  &#x27;Down&#x27;: &#x27;goDown&#x27;,
+  &#x27;End&#x27;: &#x27;goEnd&#x27;,
+  &#x27;Home&#x27;: &#x27;goHome&#x27;,
+  &#x27;Left&#x27;: &#x27;goLeft&#x27;,
+  &#x27;PageDown&#x27;: &#x27;pageDown&#x27;,
+  &#x27;PageUp&#x27;: &#x27;pageUp&#x27;,
+  &#x27;Right&#x27;: &#x27;goRight&#x27;,
+  &#x27;Up&#x27;: &#x27;goUp&#x27;,
+  33: &#x27;pageUp&#x27;,
+  34: &#x27;pageDown&#x27;,
+  35: &#x27;goEnd&#x27;,
+  36: &#x27;goHome&#x27;,
+  37: &#x27;goLeft&#x27;,
+  38: &#x27;goUp&#x27;,
+  39: &#x27;goRight&#x27;,
+  40: &#x27;goDown&#x27;,
+};
+
+
+/**
+ * List of view names for the calendar.
+ *
+ * This list must be in order from
+ * smallest increment of time to largest increment of time.
+ *
+ * @internal
+ **/
+const VIEWS &#x3D; [
+  &#x27;minute&#x27;,
+  &#x27;hour&#x27;,
+  &#x27;day&#x27;,
+  &#x27;month&#x27;,
+  &#x27;year&#x27;
+];
+
+/**
+ * Component that provides all of the user facing functionality of the date/time picker.
+ */
+
+@Component({
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  preserveWhitespaces: false,
+  providers: [
+    {
+      provide: NG_VALUE_ACCESSOR,
+      useExisting: DlDateTimePickerComponent,
+      multi: true
+    }
+  ],
+  selector: &#x27;dl-date-time-picker&#x27;,
+  styleUrls: [&#x27;./dl-date-time-picker.component.scss&#x27;],
+  templateUrl: &#x27;./dl-date-time-picker.component.html&#x27;,
+})
+export class DlDateTimePickerComponent&lt;D&gt; implements OnChanges, OnInit, ControlValueAccessor {
+
+  /**
+   * Change listener callback functions registered
+   * via &#x60;registerOnChange&#x60;
+   * @internal
+   **/
+  private _changed: ((value: D) &#x3D;&gt; void)[] &#x3D; [];
+  /**
+   * Model for the current view.
+   *
+   * @internal
+   **/
+  _model: DlDateTimePickerModel;
+  /**
+   * Maps view name to the next view (the view for the next smallest increment of time).
+   * @internal
+   **/
+  private _nextView &#x3D; {
+    &#x27;year&#x27;: &#x27;month&#x27;,
+    &#x27;month&#x27;: &#x27;day&#x27;,
+    &#x27;day&#x27;: &#x27;hour&#x27;,
+    &#x27;hour&#x27;: &#x27;minute&#x27;
+  };
+  /**
+   * Maps view name to the previous view (the view for the next largest increment of time).
+   * @internal
+   **/
+  private _previousView &#x3D; {
+    &#x27;minute&#x27;: &#x27;hour&#x27;,
+    &#x27;hour&#x27;: &#x27;day&#x27;,
+    &#x27;day&#x27;: &#x27;month&#x27;,
+    &#x27;month&#x27;: &#x27;year&#x27;
+  };
+  /**
+   * Touch listener callback functions registered
+   * via &#x60;registerOnChange&#x60;
+   * @internal
+   **/
+  private _touched: (() &#x3D;&gt; void)[] &#x3D; [];
+  /**
+   * Stores the selected value for this picker.
+   * @internal
+   **/
+  private _value: D;
+  /**
+   * Maps view name to the model provider for that view.
+   * @internal
+   **/
+  private readonly _viewToModelProvider: {
+    year: DlModelProvider;
+    month: DlModelProvider;
+    day: DlModelProvider;
+    hour: DlModelProvider;
+    minute: DlModelProvider;
+  };
+  /**
+   * Emits when a &#x60;change&#x60; event when date/time is selected or
+   * the value of the date/time picker changes.
+   **/
+  @Output()
+  readonly change &#x3D; new EventEmitter&lt;DlDateTimePickerChange&lt;D&gt;&gt;();
+  /**
+   * Specifies the classes used to display the left icon.
+   *
+   * This component uses OPENICONIC https://useiconic.com/open
+   * by default but any icon library may be used.
+   */
+  @Input()
+  leftIconClass: string | string[] | Set&lt;string&gt; | {} &#x3D; [
+    &#x27;oi&#x27;,
+    &#x27;oi-chevron-left&#x27;
+  ];
+  /**
+   * The highest view that the date/time picker can show.
+   * Setting this to a view less than year could make it more
+   * difficult for the end-user to navigate to certain dates.
+   */
+  @Input()
+  maxView: &#x27;year&#x27; | &#x27;month&#x27; | &#x27;day&#x27; | &#x27;hour&#x27; | &#x27;minute&#x27; &#x3D; &#x27;year&#x27;;
+  /**
+   * The view that will be used for date/time selection.
+   *
+   * The default of &#x60;minute  means that selection will not happen
+   * until the end-user clicks on a cell in the minute view.
+   *
+   * for example, if you want the end-user to select a only day (date),
+   * setting &#x60;minView&#x60; to &#x60;day&#x60; will cause selection to happen when the
+   * end-user selects a cell in the day view.
+   *
+   * NOTE: This must be set lower than or equal to &#x60;startView&#x27;
+   */
+  @Input()
+  minView: &#x27;year&#x27; | &#x27;month&#x27; | &#x27;day&#x27; | &#x27;hour&#x27; | &#x27;minute&#x27; &#x3D; &#x27;minute&#x27;;
+  /**
+   * The number of minutes between each &#x60;.dl-abdtp-minute&#x60; button.
+   *
+   * Must be greater than &#x60;0&#x60; and less than &#x60;60&#x60;.
+   */
+  @Input()
+  minuteStep &#x3D; 5;
+  /**
+   * Specifies the classes used to display the right icon.
+   *
+   * This component uses OPENICONIC https://useiconic.com/open
+   * by default but any icon library may be used.
+   */
+  @Input()
+  rightIconClass &#x3D; [
+    &#x27;oi&#x27;,
+    &#x27;oi-chevron-right&#x27;
+  ];
+
+  /* tslint:disable:member-ordering */
+  /**
+   *  Determine whether or not the &#x60;DateButton&#x60; is selectable by the end user.
+   */
+  @Input()
+  selectFilter: (dateButton: DateButton, viewName: string) &#x3D;&gt; boolean &#x3D; () &#x3D;&gt; true
+
+  /**
+   *  Start at the view containing startDate when no value is selected.
+   */
+  @Input()
+  startDate: number;
+
+  /**
+   * The initial view that the date/time picker will show.
+   * The picker will also return to this view after a date/time
+   * is selected.
+   *
+   * NOTE: This must be set lower than or equal to &#x60;maxView&#x27;
+   */
+  @Input()
+  startView: &#x27;year&#x27; | &#x27;month&#x27; | &#x27;day&#x27; | &#x27;hour&#x27; | &#x27;minute&#x27; &#x3D; &#x27;day&#x27;;
+
+  /**
+   * Specifies the classes used to display the up icon.
+   *
+   * This component uses OPENICONIC https://useiconic.com/open
+   * by default but any icon library may be used.
+   */
+  @Input()
+  upIconClass &#x3D; [
+    &#x27;oi&#x27;,
+    &#x27;oi-chevron-top&#x27;
+  ];
+
+  /**
+   * Used to construct a new instance of a date/time picker.
+   *
+   * @param _elementRef
+   *  reference to this element.
+   * @param _ngZone
+   *  reference to an NgZone instance used to select the active element outside of angular.
+   * @param _dateAdapter
+   *  date adapter for the date type in the model.
+   * @param yearModelComponent
+   *  provider for the year view model.
+   * @param monthModelComponent
+   *  provider for the month view model.
+   * @param dayModelComponent
+   *  provider for the day view model.
+   * @param hourModelComponent
+   *  provider for the hour view model.
+   * @param minuteModelComponent
+   *  provider for the minute view model.
+   */
+  constructor(private _elementRef: ElementRef,
+              private _ngZone: NgZone,
+              private _dateAdapter: DlDateAdapter&lt;D&gt;,
+              private yearModelComponent: DlYearModelProvider,
+              private monthModelComponent: DlMonthModelProvider,
+              private dayModelComponent: DlDayModelProvider,
+              private hourModelComponent: DlHourModelProvider,
+              private minuteModelComponent: DlMinuteModelProvider) {
+
+    this._viewToModelProvider &#x3D; {
+      year: yearModelComponent,
+      month: monthModelComponent,
+      day: dayModelComponent,
+      hour: hourModelComponent,
+      minute: minuteModelComponent,
+    };
+  }
+
+  /* tslint:enable:member-ordering */
+  /**
+   * Set&#x27;s the model for the current view after applying the selection filter.
+   *
+   * @internal
+   **/
+  private set model(model: DlDateTimePickerModel) {
+    this._model &#x3D; this.applySelectFilter(model);
+  }
+
+  /**
+   * Returns &#x60;D&#x60; value of the date/time picker or undefined/null if no value is set.
+   **/
+  get value(): D {
+    return this._value;
+  }
+
+  /**
+   * Sets value of the date/time picker and emits a change event if the
+   * new value is different from the previous value.
+   **/
+  set value(value: D) {
+    if (this._value !&#x3D;&#x3D; value) {
+      this._value &#x3D; value;
+      this.model &#x3D; this._viewToModelProvider[this._model.viewName].getModel(this.getStartDate(), this.valueOf);
+      this._changed.forEach(f &#x3D;&gt; f(value));
+      this.change.emit(new DlDateTimePickerChange&lt;D&gt;(value));
+    }
+  }
+
+  /**
+   * Returns &#x60;milliseconds&#x60; value of the date/time picker or undefined/null if no value is set.
+   **/
+  get valueOf(): number | null {
+    return this._dateAdapter.toMilliseconds(this._value);
+  }
+
+  /**
+   * Applies the &#x60;selectionFilter&#x60; by adding the &#x60;dl-abdtp-disabled&#x60;
+   * class to any &#x60;DateButton&#x60; where &#x60;selectFilter&#x60; returned false.
+   *
+   * @param model
+   *  the new model
+   *
+   * @returns
+   *  the supplied model with zero or more &#x60;DateButton&#x60;&#x27;s
+   *  having the &#x60;dl-abdtp-disabled&#x60; class set to &#x60;true&#x60; if the
+   *  selection for that date should be disabled.
+   *
+   * @internal
+   */
+  private applySelectFilter(model: DlDateTimePickerModel): DlDateTimePickerModel {
+    if (this.selectFilter) {
+      model.rows &#x3D; model.rows.map((row) &#x3D;&gt; {
+        row.cells.map((dateButton: DateButton) &#x3D;&gt; {
+          const disabled &#x3D; !this.selectFilter(dateButton, model.viewName);
+          dateButton.classes[&#x27;dl-abdtp-disabled&#x27;] &#x3D; disabled;
+          if (disabled) {
+            dateButton.classes[&#x27;aria-disabled&#x27;] &#x3D; true;
+          }
+          return dateButton;
+        });
+        return row;
+      });
+    }
+
+    return model;
+  }
+
+  /**
+   * Focuses the &#x60;.dl-abdtp-active&#x60; cell after the microtask queue is empty.
+   * @internal
+   **/
+  private focusActiveCell() {
+    this._ngZone.runOutsideAngular(() &#x3D;&gt; {
+      this._ngZone.onStable.asObservable().pipe(take(1)).subscribe(() &#x3D;&gt; {
+        this._elementRef.nativeElement.querySelector(&#x27;.dl-abdtp-active&#x27;).focus();
+      });
+    });
+  }
+
+  /**
+   * Determines the start date for the picker.
+   * @internal
+   **/
+  private getStartDate() {
+    if (hasValue(this._value)) {
+      return this._dateAdapter.toMilliseconds(this._value);
+    }
+    if (hasValue(this.startDate)) {
+      return this.startDate;
+    }
+    return moment().valueOf();
+  }
+
+  /**
+   * Determine the start view for the picker
+   * @returns
+   *  the largest time increment view between the &#x60;minView&#x60; or &#x60;minute&#x60; view and the &#x60;startView&#x60; or &#x60;day&#x60; view.
+   */
+  private getStartView(): string {
+    const startIndex &#x3D; Math.max(VIEWS.indexOf(this.minView || &#x27;minute&#x27;), VIEWS.indexOf(this.startView || &#x27;day&#x27;));
+    return VIEWS[startIndex];
+  }
+
+  /**
+   * Calls all registered &#x60;touch&#x60; callback functions.
+   * @internal
+   **/
+  private onTouch() {
+    this._touched.forEach((onTouched) &#x3D;&gt; onTouched());
+  }
+
+  /**
+   * Receives configuration changes detected by Angular and passes the changes on
+   * to the model providers so the provider is aware of any necessary configuration
+   * changes (i.e. minuteStep)
+   *
+   * @param changes
+   *  the input changes detected by Angular.
+   */
+  ngOnChanges(changes: SimpleChanges): void {
+    Object.keys(this._viewToModelProvider)
+      .map((key) &#x3D;&gt; this._viewToModelProvider[key])
+      .forEach((provider: DlModelProvider) &#x3D;&gt; provider.onChanges(changes));
+
+    if (this._model) { // only update the model after ngOnInit has set it the first time.
+      this.model &#x3D; this._viewToModelProvider[this._model.viewName].getModel(this._model.activeDate, this.valueOf);
+    }
+  }
+
+  /**
+   * Sets the initial model.
+   *
+   * @internal
+   **/
+  ngOnInit(): void {
+    this.model &#x3D; this._viewToModelProvider[this.getStartView()].getModel(this.getStartDate(), this.valueOf);
+  }
+
+  /**
+   * Handles click (and enter &amp; space key down) events on the date elements.
+   *
+   * If the current view is the minimum view then the date value is selected
+   * and the picker returns to the start view.
+   *
+   * Otherwise the picker displays the next view with the next
+   * smallest time increment.
+   *
+   * @internal
+   **/
+  _onDateClick(dateButton: DateButton) {
+    if (dateButton.classes[&#x27;dl-abdtp-disabled&#x27;]) {
+      return;
+    }
+
+    let nextView &#x3D; this._nextView[this._model.viewName];
+
+    if ((this.minView || &#x27;minute&#x27;) &#x3D;&#x3D;&#x3D; this._model.viewName) {
+      this.value &#x3D; this._dateAdapter.fromMilliseconds(dateButton.value);
+      nextView &#x3D; this.startView;
+    }
+
+    this.model &#x3D; this._viewToModelProvider[nextView].getModel(dateButton.value, this.valueOf);
+
+    this.onTouch();
+  }
+
+  /**
+   * Handles click (and enter &amp; space key down) events on the left button.
+   *
+   * Changes the displayed time range of the picker to the previous time range.
+   * For example, in year view, the previous decade is displayed.
+   *
+   * @internal
+   **/
+  _onLeftClick() {
+    this.model &#x3D; this._viewToModelProvider[this._model.viewName].getModel(this._model.leftButton.value, this.valueOf);
+    this.onTouch();
+  }
+
+  /**
+   * Handles click (and enter &amp; space key down) events on the up button.
+   *
+   * Changes the view of the picker to the next largest time increment.
+   * For example, in day view, the next view displayed will be month view.
+   *
+   * @internal
+   **/
+  _onUpClick() {
+    this.model &#x3D; this._viewToModelProvider[this._previousView[this._model.viewName]].getModel(this._model.upButton.value, this.valueOf);
+  }
+
+  /**
+   * Handles click (and enter &amp; space key down) events on the right button.
+   *
+   * Changes the displayed time range of the picker to the next time range.
+   * For example, in year view, the next decade is displayed.
+   *
+   * @internal
+   **/
+  _onRightClick() {
+    this.model &#x3D; this._viewToModelProvider[this._model.viewName].getModel(this._model.rightButton.value, this.valueOf);
+    this.onTouch();
+  }
+
+  /**
+   * Handles various key down events to move the &#x60;active date&#x60; around the calendar.
+   *
+   * @internal
+   **/
+  _handleKeyDown($event: KeyboardEvent): void {
+    const functionName &#x3D; keyCodeToModelProviderMethod[$event.key];
+
+    console.log($event, functionName);
+
+    if (functionName) {
+      const modelProvider &#x3D; this._viewToModelProvider[this._model.viewName];
+      this.model &#x3D; modelProvider[functionName](this._model.activeDate, this.valueOf);
+
+      this.focusActiveCell();
+      // Prevent unexpected default actions such as form submission.
+      $event.preventDefault();
+    }
+  }
+
+  /**
+   * Implements ControlValueAccessor.registerOnChange to register change listeners.
+   * @internal
+   **/
+  registerOnChange(fn: (value: D) &#x3D;&gt; void) {
+    this._changed.push(fn);
+  }
+
+  /**
+   * Implements ControlValueAccessor.registerOnTouched to register touch listeners.
+   * @internal
+   **/
+  registerOnTouched(fn: () &#x3D;&gt; void) {
+    this._touched.push(fn);
+  }
+
+  /**
+   * Implements ControlValueAccessor.writeValue to store the value from the model.
+   * @internal
+   **/
+  writeValue(value: D) {
+    this.value &#x3D; value;
+  }
+
+}
+
+/** @internal */
+function hasValue(value: any): boolean {
+  return (typeof value !&#x3D;&#x3D; &#x27;undefined&#x27;) &amp;&amp; (value !&#x3D;&#x3D; null);
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;text-center dl-abdtp-{{_model.viewName}}-view &quot;&gt;
+  &lt;div class&#x3D;&quot;row align-items-center no-gutters&quot;&gt;
+    &lt;button class&#x3D;&quot;col dl-abdtp-left-button align-items-center&quot;
+            type&#x3D;&quot;button&quot;
+            [attr.aria-label]&#x3D;&quot;_model.leftButton.ariaLabel&quot;
+            [attr.title]&#x3D;&quot;_model.leftButton.ariaLabel&quot;
+            [ngClass]&#x3D;&quot;_model.leftButton.classes&quot;
+            (click)&#x3D;&quot;_onLeftClick()&quot;&gt;
+      &lt;span class&#x3D;&quot;left-icon&quot; [ngClass]&#x3D;&quot;leftIconClass&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+
+    &lt;div *ngIf&#x3D;&quot;_model.viewName &#x3D;&#x3D;&#x3D; (this.maxView || &#x27;year&#x27;); then maxViewLabel else defaultViewLabel;&quot;&gt;&lt;/div&gt;
+
+    &lt;button class&#x3D;&quot;col dl-abdtp-right-button&quot;
+            type&#x3D;&quot;button&quot;
+            [attr.aria-label]&#x3D;&quot;_model.rightButton.ariaLabel&quot;
+            [attr.title]&#x3D;&quot;_model.rightButton.ariaLabel&quot;
+            (click)&#x3D;&quot;_onRightClick()&quot;
+            [ngClass]&#x3D;&quot;_model.rightButton.classes&quot;&gt;
+      &lt;span class&#x3D;&quot;right-icon&quot; [ngClass]&#x3D;&quot;rightIconClass&quot;&gt;&lt;/span&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;div (keydown)&#x3D;&quot;_handleKeyDown($event)&quot;&gt;
+    &lt;div *ngIf&#x3D;&quot;_model.rowLabels?.length&quot; class&#x3D;&quot;row no-gutters&quot;&gt;
+      &lt;div *ngFor&#x3D;&quot;let label of _model.rowLabels&quot; class&#x3D;&quot;col align-items-center no-gutters dl-abdtp-col-label&quot;&gt;{{label}}&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div *ngFor&#x3D;&quot;let row of _model.rows&quot; class&#x3D;&quot;row align-items-center no-gutters&quot;&gt;
+      &lt;div *ngFor&#x3D;&quot;let cell of row.cells&quot;
+           role&#x3D;&quot;gridcell&quot;
+           class&#x3D;&quot;col dl-abdtp-date-button dl-abdtp-{{_model.viewName}} {{cell.value}}&quot;
+           [ngClass]&#x3D;&quot;cell.classes&quot;
+           [attr.aria-label]&#x3D;&quot;cell.ariaLabel&quot;
+           [attr.aria-disabled]&#x3D;&quot;cell.classes[&#x27;dl-abdtp-disabled&#x27;]&quot;
+           [attr.tabindex]&#x3D;&quot;cell.classes[&#x27;dl-abdtp-active&#x27;] ? 0 : -1&quot;
+           (click)&#x3D;&quot;_onDateClick(cell)&quot;
+           (keydown.space)&#x3D;&quot;_onDateClick(cell)&quot;
+           (keydown.enter)&#x3D;&quot;_onDateClick(cell)&quot;
+      &gt;{{cell.display}}&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;ng-template #maxViewLabel&gt;
+  &lt;div class&#x3D;&quot;col-10 dl-abdtp-view-label&quot;&gt;{{_model.viewLabel}}&lt;/div&gt;
+&lt;/ng-template&gt;
+&lt;ng-template #defaultViewLabel&gt;
+  &lt;button class&#x3D;&quot;col-10 dl-abdtp-view-label dl-abdtp-up-button&quot;
+          type&#x3D;&quot;button&quot;
+          [attr.aria-label]&#x3D;&quot;_model.upButton.ariaLabel&quot;
+          [attr.title]&#x3D;&quot;_model.upButton.ariaLabel&quot;
+          (click)&#x3D;&quot;_onUpClick()&quot;
+          [ngClass]&#x3D;&quot;_model.upButton.classes&quot;
+  &gt;{{_model.viewLabel}}&amp;nbsp;&lt;span class&#x3D;&quot;up-icon&quot; [ngClass]&#x3D;&quot;upIconClass&quot;&gt;&lt;/span&gt;
+  &lt;/button&gt;
+&lt;/ng-template&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./dl-date-time-picker.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">@import &#x27;../../scss/variables&#x27;;
+
+:host {
+  user-select: none;
+}
+
+.dl-abdtp-col-label,
+.dl-abdtp-view-label {
+  font-weight: bold;
+}
+
+.dl-abdtp-view-label,
+.dl-abdtp-left-button,
+.dl-abdtp-right-button,
+.dl-abdtp-date-button {
+  padding: 5px;
+  border-radius: $dl-abdtp-date-button-border-radius;
+  cursor: pointer;
+  color: $dl-abdtp-date-button-color;
+  outline: 0;
+}
+
+.dl-abdtp-left-button,
+.dl-abdtp-up-button,
+.dl-abdtp-right-button,
+.dl-abdtp-date-button {
+  border-width: 0;
+}
+
+.dl-abdtp-active:focus,
+.dl-abdtp-date-button:focus,
+.dl-abdtp-date-button:hover,
+.dl-abdtp-left-button:focus,
+.dl-abdtp-left-button:hover,
+.dl-abdtp-right-button:focus,
+.dl-abdtp-right-button:hover,
+.dl-abdtp-up-button:focus,
+.dl-abdtp-up-button:hover,
+.dl-abdtp-view-label:focus {
+  background: $dl-abdtp-hover-background;
+}
+
+.dl-abdtp-past,
+.dl-abdtp-future {
+  color: $dl-abdtp-past-future-color;
+}
+
+.dl-abdtp-now,
+.dl-abdtp-now:hover,
+.dl-abdtp-now.disabled,
+.dl-abdtp-now.disabled:hover {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: $dl-abdtp-date-button-border-radius;
+  border-color: $dl-abdtp-now-border-color;
+}
+
+.dl-abdtp-selected {
+  color: $dl-abdtp-selected-color;
+  background: $dl-abdtp-selected-background;
+}
+
+.dl-abdtp-selected:focus,
+.dl-abdtp-selected:hover {
+  background: $dl-abdtp-selected-hover-background;
+}
+
+.dl-abdtp-disabled {
+  cursor: default;
+  color: $dl-abdtp-disabled;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="text-center dl-abdtp-{{_model.viewName}}-view ">  <div class="row align-items-center no-gutters">    <button class="col dl-abdtp-left-button align-items-center"            type="button"            [attr.aria-label]="_model.leftButton.ariaLabel"            [attr.title]="_model.leftButton.ariaLabel"            [ngClass]="_model.leftButton.classes"            (click)="_onLeftClick()">      <span class="left-icon" [ngClass]="leftIconClass"></span>    </button>    <div *ngIf="_model.viewName === (this.maxView || \'year\'); then maxViewLabel else defaultViewLabel;"></div>    <button class="col dl-abdtp-right-button"            type="button"            [attr.aria-label]="_model.rightButton.ariaLabel"            [attr.title]="_model.rightButton.ariaLabel"            (click)="_onRightClick()"            [ngClass]="_model.rightButton.classes">      <span class="right-icon" [ngClass]="rightIconClass"></span>    </button>  </div>  <div (keydown)="_handleKeyDown($event)">    <div *ngIf="_model.rowLabels?.length" class="row no-gutters">      <div *ngFor="let label of _model.rowLabels" class="col align-items-center no-gutters dl-abdtp-col-label">{{label}}</div>    </div>    <div *ngFor="let row of _model.rows" class="row align-items-center no-gutters">      <div *ngFor="let cell of row.cells"           role="gridcell"           class="col dl-abdtp-date-button dl-abdtp-{{_model.viewName}} {{cell.value}}"           [ngClass]="cell.classes"           [attr.aria-label]="cell.ariaLabel"           [attr.aria-disabled]="cell.classes[\'dl-abdtp-disabled\']"           [attr.tabindex]="cell.classes[\'dl-abdtp-active\'] ? 0 : -1"           (click)="_onDateClick(cell)"           (keydown.space)="_onDateClick(cell)"           (keydown.enter)="_onDateClick(cell)"      >{{cell.display}}</div>    </div>  </div></div><ng-template #maxViewLabel>  <div class="col-10 dl-abdtp-view-label">{{_model.viewLabel}}</div></ng-template><ng-template #defaultViewLabel>  <button class="col-10 dl-abdtp-view-label dl-abdtp-up-button"          type="button"          [attr.aria-label]="_model.upButton.ariaLabel"          [attr.title]="_model.upButton.ariaLabel"          (click)="_onUpClick()"          [ngClass]="_model.upButton.classes"  >{{_model.viewLabel}}&nbsp;<span class="up-icon" [ngClass]="upIconClass"></span>  </button></ng-template></div>'
+    var COMPONENTS = [{'name': 'DlDateTimePickerComponent', 'selector': 'dl-date-time-picker'}];
+    var DIRECTIVES = [{'name': 'DlDateTimeInputDirective', 'selector': 'input[dlDateTimeInput]'}];
+    var ACTUAL_COMPONENT = {'name': 'DlDateTimePickerComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'DlDateTimePickerComponent.html';
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+            <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                ga('create', 'UA-325325-19', '');
+                ga('send', 'pageview');
+            </script>
+
+    </body>
+</html>
