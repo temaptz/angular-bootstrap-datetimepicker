@@ -80,9 +80,9 @@
         <h3>Implements</h3>
     </p>
     <p class="comment">
-                    <code><a href="https://angular.io/api/core/OnChanges" target="_blank" >OnChanges</a></code>
-                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
-                    <code><a href="https://angular.io/api/forms/ControlValueAccessor" target="_blank" >ControlValueAccessor</a></code>
+                <code><a href="https://angular.io/api/core/OnChanges" target="_blank" >OnChanges</a></code>
+                <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                <code><a href="https://angular.io/api/forms/ControlValueAccessor" target="_blank" >ControlValueAccessor</a></code>
     </p>
 
 
@@ -110,7 +110,7 @@
             <tr>
                 <td class="col-md-3">providers</td>
                 <td class="col-md-9">
-                                <code><a href="../components/DlDateTimePickerComponent.html" target="_self" >{
+                            <code><a href="../components/DlDateTimePickerComponent.html" target="_self" >{
     provide: NG_VALUE_ACCESSOR, useExisting: DlDateTimePickerComponent, multi: true
 }</a></code>
                 </td>
@@ -260,7 +260,7 @@
                                                         <td>_elementRef</td>
                                                   
                                                         <td>
-                                                                        <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
+                                                                    <code><a href="https://angular.io/api/core/ElementRef" target="_blank" >ElementRef</a></code>
                                                         </td>
                                                   
                                                     <td>
@@ -276,7 +276,7 @@
                                                         <td>_ngZone</td>
                                                   
                                                         <td>
-                                                                        <code><a href="https://angular.io/api/core/NgZone" target="_blank" >NgZone</a></code>
+                                                                    <code><a href="https://angular.io/api/core/NgZone" target="_blank" >NgZone</a></code>
                                                         </td>
                                                   
                                                     <td>
@@ -292,7 +292,7 @@
                                                         <td>_dateAdapter</td>
                                                   
                                                         <td>
-                                                                        <code><a href="../classes/DlDateAdapter.html" target="_self" >DlDateAdapter&lt;D&gt;</a></code>
+                                                                    <code><a href="../classes/DlDateAdapter.html" target="_self" >DlDateAdapter&lt;D&gt;</a></code>
                                                         </td>
                                                   
                                                     <td>
@@ -308,7 +308,7 @@
                                                         <td>yearModelComponent</td>
                                                   
                                                         <td>
-                                                                        <code><a href="../classes/DlYearModelProvider.html" target="_self" >DlYearModelProvider</a></code>
+                                                                    <code><a href="../classes/DlYearModelProvider.html" target="_self" >DlYearModelProvider</a></code>
                                                         </td>
                                                   
                                                     <td>
@@ -324,7 +324,7 @@
                                                         <td>monthModelComponent</td>
                                                   
                                                         <td>
-                                                                        <code><a href="../classes/DlMonthModelProvider.html" target="_self" >DlMonthModelProvider</a></code>
+                                                                    <code><a href="../classes/DlMonthModelProvider.html" target="_self" >DlMonthModelProvider</a></code>
                                                         </td>
                                                   
                                                     <td>
@@ -340,7 +340,7 @@
                                                         <td>dayModelComponent</td>
                                                   
                                                         <td>
-                                                                        <code><a href="../classes/DlDayModelProvider.html" target="_self" >DlDayModelProvider</a></code>
+                                                                    <code><a href="../classes/DlDayModelProvider.html" target="_self" >DlDayModelProvider</a></code>
                                                         </td>
                                                   
                                                     <td>
@@ -356,7 +356,7 @@
                                                         <td>hourModelComponent</td>
                                                   
                                                         <td>
-                                                                        <code><a href="../classes/DlHourModelProvider.html" target="_self" >DlHourModelProvider</a></code>
+                                                                    <code><a href="../classes/DlHourModelProvider.html" target="_self" >DlHourModelProvider</a></code>
                                                         </td>
                                                   
                                                     <td>
@@ -372,7 +372,7 @@
                                                         <td>minuteModelComponent</td>
                                                   
                                                         <td>
-                                                                        <code><a href="../classes/DlMinuteModelProvider.html" target="_self" >DlMinuteModelProvider</a></code>
+                                                                    <code><a href="../classes/DlMinuteModelProvider.html" target="_self" >DlMinuteModelProvider</a></code>
                                                         </td>
                                                   
                                                     <td>
@@ -425,7 +425,7 @@
                 <tr>
                     <td class="col-md-4">
                         <div class="io-description"><p>Specifies the classes used to display the left icon.</p>
-<p>This component uses OPENICONIC https://useiconic.com/open
+<p>This component uses OPENICONIC <a href="https://useiconic.com/open">https://useiconic.com/open</a>
 by default but any icon library may be used.</p>
 </div>
                     </td>
@@ -520,14 +520,16 @@ difficult for the end-user to navigate to certain dates.</p>
                 <tr>
                     <td class="col-md-4">
                         <div class="io-description"><p>The view that will be used for date/time selection.</p>
-<p>The default of <code>minute  means that selection will not happen
-   * until the end-user clicks on a cell in the minute view.
-   *
-   * for example, if you want the end-user to select a only day (date),
-   * setting</code>minView<code>to</code>day<code>will cause selection to happen when the
-   * end-user selects a cell in the day view.
-   *
-   * NOTE: This must be set lower than or equal to</code>startView&#39;</p>
+<p>The default of `minute  means that selection will not happen</p>
+<ul>
+<li>until the end-user clicks on a cell in the minute view.
+*</li>
+<li>for example, if you want the end-user to select a only day (date),</li>
+<li>setting <code>minView</code> to <code>day</code> will cause selection to happen when the</li>
+<li>end-user selects a cell in the day view.
+*</li>
+<li>NOTE: This must be set lower than or equal to `startView&#39;</li>
+</ul>
 </div>
                     </td>
                 </tr>
@@ -557,7 +559,7 @@ difficult for the end-user to navigate to certain dates.</p>
                 <tr>
                     <td class="col-md-4">
                         <div class="io-description"><p>Specifies the classes used to display the right icon.</p>
-<p>This component uses OPENICONIC https://useiconic.com/open
+<p>This component uses OPENICONIC <a href="https://useiconic.com/open">https://useiconic.com/open</a>
 by default but any icon library may be used.</p>
 </div>
                     </td>
@@ -574,7 +576,7 @@ by default but any icon library may be used.</p>
                 </tr>
                 <tr>
                     <td class="col-md-4">
-                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/function" target="_blank" >function</a></code>
+                        <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/function" target="_blank" >function</a></code>
 
                     </td>
                 </tr>
@@ -606,7 +608,7 @@ by default but any icon library may be used.</p>
                 </tr>
                 <tr>
                     <td class="col-md-4">
-                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                        <i>Type : </i>    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
 
                     </td>
                 </tr>
@@ -683,7 +685,7 @@ is selected.</p>
                 <tr>
                     <td class="col-md-4">
                         <div class="io-description"><p>Specifies the classes used to display the up icon.</p>
-<p>This component uses OPENICONIC https://useiconic.com/open
+<p>This component uses OPENICONIC <a href="https://useiconic.com/open">https://useiconic.com/open</a>
 by default but any icon library may be used.</p>
 </div>
                     </td>
@@ -703,7 +705,7 @@ by default but any icon library may be used.</p>
                 </tr>
                 <tr>
                     <td class="col-md-4">
-                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+                        <i>Type : </i>    <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
 
                     </td>
                 </tr>
@@ -802,7 +804,7 @@ new value is different from the previous value.</p>
                                 <div>
                                 </div>
                                 <div class="io-description">
-                                    <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+                                    <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
 
                                 </div>
                         </td>
@@ -816,23 +818,60 @@ new value is different from the previous value.</p>
         <p><p>This Component provides all of the user facing functionality of the date/time picker.</p>
 <h2 id="keyboard-accessibility">Keyboard Accessibility</h2>
 <p>The following keyboard shortcuts are supported in in all views:</p>
-<p>| Shortcut             | Action                                          |
-|----------------------|-------------------------------------------------|
-| <code>LEFT_ARROW</code>         | Go to the cell to the left                      |
-| <code>RIGHT_ARROW</code>        | Go to the cell to the right                     |
-| <code>UP_ARROW</code>           | Go to the cell above                            |
-| <code>DOWN_ARROW</code>         | Go to the cell below                            |
-| <code>HOME</code>               | Go to the first cell in the view                |
-| <code>END</code>                | Go to the last cell in the view                 |
-| <code>PAGE_UP</code>            | Go to the same cell in the previous time period |
-| <code>PAGE_DOWN</code>          | Go to the same cell in the next time period     |
-| <code>ENTER</code> or <code>SPACE</code>   | Select current cell                             |</p>
+<table class="table table-bordered compodoc-table">
+<thead>
+<tr>
+<th>Shortcut</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>LEFT_ARROW</code></td>
+<td>Go to the cell to the left</td>
+</tr>
+<tr>
+<td><code>RIGHT_ARROW</code></td>
+<td>Go to the cell to the right</td>
+</tr>
+<tr>
+<td><code>UP_ARROW</code></td>
+<td>Go to the cell above</td>
+</tr>
+<tr>
+<td><code>DOWN_ARROW</code></td>
+<td>Go to the cell below</td>
+</tr>
+<tr>
+<td><code>HOME</code></td>
+<td>Go to the first cell in the view</td>
+</tr>
+<tr>
+<td><code>END</code></td>
+<td>Go to the last cell in the view</td>
+</tr>
+<tr>
+<td><code>PAGE_UP</code></td>
+<td>Go to the same cell in the previous time period</td>
+</tr>
+<tr>
+<td><code>PAGE_DOWN</code></td>
+<td>Go to the same cell in the next time period</td>
+</tr>
+<tr>
+<td><code>ENTER</code> or <code>SPACE</code></td>
+<td>Select current cell</td>
+</tr>
+</tbody>
+</table>
 <h2 id="supported-date-types">Supported date types</h2>
-<p>Import the module corresponding to the desired data type of the date in the model.
-* Native JavaScript Date: import <code>DlDateTimePickerDateModule</code>
-* Moment Date: import <code>DlDateTimePickerMomentModule</code>
-* Milliseconds (local): import <code>DlDateTimePickerNumberModule</code>
-* String (local): import <code>DlDateTimePickerStringModule</code></p>
+<p>Import the module corresponding to the desired data type of the date in the model.</p>
+<ul>
+<li>Native JavaScript Date: import <code>DlDateTimePickerDateModule</code></li>
+<li>Moment Date: import <code>DlDateTimePickerMomentModule</code></li>
+<li>Milliseconds (local): import <code>DlDateTimePickerNumberModule</code></li>
+<li>String (local): import <code>DlDateTimePickerStringModule</code></li>
+</ul>
 <p>A <code>DateAdapter</code> is used to adapt the data type in the model to the <code>number</code> data type 
 used internally by the date/time picker.</p>
 <p>If you need a different data type than what is currently supported, you can extend 
@@ -843,17 +882,15 @@ provider in <code>app.module.ts</code> to use your new class. </p>
 <p>The input and output formats for dates are injected into the <code>DlDateAdapterString</code> class 
 using the <code>DL_STRING_DATE_INPUT_FORMATS</code> and <code>DL_STRING_DATE_OUTPUT_FORMAT</code> tokens.</p>
 <p><code>DL_STRING_DATE_OUTPUT_FORMAT</code> defaults to <code>moment</code>&#39;s <code>lll</code> long date format.</p>
-<p><code>DL_STRING_DATE_INPUT_FORMATS</code> defaults to the following:
-<code>typescript
-[
+<p><code>DL_STRING_DATE_INPUT_FORMATS</code> defaults to the following:</p>
+<div><pre class="line-numbers"><code class="language-typescript">[
   moment.localeData().longDateFormat(&#39;lll&#39;),
   &#39;YYYY-MM-DDTHH:mm&#39;,
   &#39;YYYY-MM-DDTHH:mm:ss&#39;,
   &#39;YYYY-MM-DDTHH:mm:ss.SSS&#39;,
   &#39;YYYY-MM-DD&#39;,
   &#39;YYYY-MM-DDTHH:mm:ss.SSS[Z]&#39; // ISO_8601
-]</code></p>
-<p>If you want different formats, override the injection tokens in <code>app.module.ts</code> 
+]</code></pre></div><p>If you want different formats, override the injection tokens in <code>app.module.ts</code> 
 i.e <code>{provide: DL_STRING_DATE_OUTPUT_FORMAT, useValue: &#39;&lt;what ever format you want goes here&gt;&#39;}</code> </p>
 <h2 id="model-provider">Model Provider</h2>
 <p><code>ModelProvider</code>s are used to create the <code>Model</code> for each of the <code>views</code> in the date/time picker.
@@ -866,346 +903,315 @@ display <code>25 years</code>  by doing the following:</p>
 <ol>
 <li><p>Test and implement <code>QuarterCenturyYearModelProvider</code></p>
 <p> It might look something like this: </p>
-<p> ```typescript
- /**</p>
-<ul>
-<li><p>@license</p>
-</li>
-<li><p>Copyright 2013-present Dale Lotts All Rights Reserved.</p>
-</li>
-<li><p>http://www.dalelotts.com</p>
-</li>
-<li></li>
-<li><p>Use of this source code is governed by an MIT-style license that can be</p>
-</li>
-<li><p>found in the LICENSE file at https://github.com/dalelotts/angular-bootstrap-datetimepicker/blob/master/LICENSE</p>
-</li>
-<li><p>/</p>
-<p>import {DlDateTimePickerModel, DlModelProvider} from &#39;angular-bootstrap-datetimepicker&#39;;
-import {SimpleChanges} from &#39;@angular/core&#39;;
-import * as _moment from &#39;moment&#39;;
-import {Moment} from &#39;moment&#39;;</p>
-<p>/**</p>
-</li>
-<li><p>Work around for moment namespace conflict when used with webpack and rollup.</p>
-</li>
-<li><p>See https://github.com/dherges/ng-packagr/issues/163</p>
-</li>
-<li></li>
-<li><p>Depending on whether rollup is used, moment needs to be imported differently.</p>
-</li>
-<li><p>Since Moment.js doesn&#39;t have a default export, we normally need to import using</p>
-</li>
-<li><p>the <code>* as</code>syntax.</p>
-</li>
-<li></li>
-<li><p>rollup creates a synthetic default module and we thus need to import it using</p>
-</li>
-<li><p>the <code>default as</code> syntax.</p>
-</li>
-<li></li>
-<li><p>@internal</p>
-</li>
-<li><p>*/
-const moment = _moment;</p>
-<p>/**</p>
-</li>
-<li><p>Quarter century implementation for the <code>year</code> view.</p>
-</li>
-<li><p>/
-export class QuarterCenturyYearModelProvider implements DlModelProvider {</p>
-<p>/**</p>
-<ul>
-<li>Create a moment at midnight january 1 at the start of the quarter-century.</li>
-<li>The start of the quarter-century is always a year ending in zero or five.</li>
-<li></li>
-<li>@param fromMilliseconds</li>
-<li>the moment in time from which the start of the quarter-century will be determined.</li>
-<li>@returns</li>
-<li>moment at midnight january 1 at the start of the current quarter-century.</li>
-<li>@internal</li>
-<li>/
-private static getStartOfQuarterCentury(fromMilliseconds: number): Moment {
-const currentYear = moment(fromMilliseconds).year();
-const yearsToSubtract = currentYear % 25;
-return moment({year: currentYear - yearsToSubtract}).startOf(&#39;year&#39;);
-}</li>
-</ul>
-<p>/**</p>
-<ul>
-<li>Receives input changes detected by Angular.</li>
-<li></li>
-<li>@param changes</li>
-<li>the input changes detected by Angular.</li>
-<li>/
-onChanges(changes: SimpleChanges): void {
-}</li>
-</ul>
-<p>/**</p>
-<ul>
-<li><p>Returns the <code>year</code> model for the specified moment in <code>local</code> time with the</p>
-</li>
-<li><p><code>active</code> year set to January 1 of the specified year.</p>
-</li>
-<li></li>
-<li><p>The <code>year</code> model represents a quarter-century (25 years) as five rows with five columns.</p>
-</li>
-<li></li>
-<li><p>The quarter-century always starts on a year ending with zero or 5.</p>
-</li>
-<li></li>
-<li><p>Each cell represents midnight January 1 of the indicated year.</p>
-</li>
-<li></li>
-<li><p>The <code>active</code> year will be the January 1 of year of the specified milliseconds.</p>
-</li>
-<li></li>
-<li><p>@param milliseconds</p>
-</li>
-<li><p>the moment in time from which the year model will be created.</p>
-</li>
-<li><p>@param selectedMilliseconds</p>
-</li>
-<li><p>the current value of the date/time picker.</p>
-</li>
-<li><p>@returns</p>
-</li>
-<li><p>the model representing the specified moment in time.</p>
-</li>
-<li><p>/
-getModel(milliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
-const rowNumbers = [0, 1, 2, 3, 4];
-const columnNumbers = [0, 1, 2, 3, 4];</p>
-<p>const startYear = moment(milliseconds).startOf(&#39;year&#39;);
-const startDate = QuarterCenturyYearModelProvider.getStartOfQuarterCentury(milliseconds);</p>
-<p>const futureYear = startDate.year() + 24;
-const pastYear = startDate.year();
-const activeValue = startYear.valueOf();
-const selectedValue = selectedMilliseconds === null || selectedMilliseconds === undefined
-  ? selectedMilliseconds
-  : moment(selectedMilliseconds).startOf(&#39;year&#39;).valueOf();</p>
-<p>const result: DlDateTimePickerModel = {
-  viewName: &#39;year&#39;,
-  viewLabel: <code>${pastYear}-${futureYear}</code>,
-  activeDate: activeValue,
-  leftButton: {</p>
-<div><pre class="line-numbers"><code class="language-none">value: moment(startDate).subtract(25, &#39;years&#39;).valueOf(),
-ariaLabel: `Go to ${pastYear - 25}-${pastYear - 1}`,
-classes: {},</code></pre></div><p>  },
-  rightButton: {</p>
-<div><pre class="line-numbers"><code class="language-none">value: moment(startDate).add(25, &#39;years&#39;).valueOf(),
-ariaLabel: `Go to ${futureYear + 1}-${futureYear + 25}`,
-classes: {},</code></pre></div><p>  },
-  rows: rowNumbers.map(rowOfYears.bind(this))
-};</p>
-<p>result.leftButton.classes[<code>${result.leftButton.value}</code>] = true;
-result.rightButton.classes[<code>${result.rightButton.value}</code>] = true;</p>
-<p>return result;</p>
-<p>function rowOfYears(rowNumber) {</p>
-<p>  const currentMoment = moment();
-  const cells = columnNumbers.map((columnNumber) =&gt; {</p>
-<div><pre class="line-numbers"><code class="language-none">const yearMoment = moment(startDate).add((rowNumber * columnNumbers.length) + columnNumber, &#39;years&#39;);
-return {
-  display: yearMoment.format(&#39;YYYY&#39;),
-  value: yearMoment.valueOf(),
-  classes: {
-    &#39;dl-abdtp-active&#39;: activeValue === yearMoment.valueOf(),
-    &#39;dl-abdtp-selected&#39;: selectedValue === yearMoment.valueOf(),
-    &#39;dl-abdtp-now&#39;: yearMoment.isSame(currentMoment, &#39;year&#39;),
-  }
-};</code></pre></div><p>  });
-  return {cells};
-}
-}</p>
-</li>
-</ul>
-<p>/**</p>
-<ul>
-<li>Move the active <code>year</code> one row <code>down</code> from the specified moment in time.</li>
-<li></li>
-<li>The <code>active</code> year will be the January 1 <code>five (5) years after</code> the specified milliseconds.</li>
-<li>This moves the <code>active</code> date one row <code>down</code> in the current <code>year</code> view.</li>
-<li></li>
-<li>Moving <code>down</code> can result in the <code>active</code> year being part of a different quarter-century than</li>
-<li>the specified <code>fromMilliseconds</code>, in this case the quarter-century represented by the model</li>
-<li>will change to show the correct quarter-century.</li>
-<li></li>
-<li>@param fromMilliseconds</li>
-<li>the moment in time from which the next <code>year</code> model <code>down</code> will be constructed.</li>
-<li>@param selectedMilliseconds</li>
-<li>the current value of the date/time picker.</li>
-<li>@returns</li>
-<li>model containing an <code>active</code> <code>year</code> one row <code>down</code> from the specified moment in time.</li>
-<li>/
-goDown(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
-return this.getModel(moment(fromMilliseconds).add(5, &#39;year&#39;).valueOf(), selectedMilliseconds);
-}</li>
-</ul>
-<p>/**</p>
-<ul>
-<li>Move the active <code>year</code> one row <code>up</code> from the specified moment in time.</li>
-<li></li>
-<li>The <code>active</code> year will be the January 1 <code>five (5) years before</code> the specified milliseconds.</li>
-<li>This moves the <code>active</code> date one row <code>up</code> in the current <code>year</code> view.</li>
-<li></li>
-<li>Moving <code>up</code> can result in the <code>active</code> year being part of a different quarter-century than</li>
-<li>the specified <code>fromMilliseconds</code>, in this case the quarter-century represented by the model</li>
-<li>will change to show the correct quarter-century.</li>
-<li></li>
-<li>@param fromMilliseconds</li>
-<li>the moment in time from which the previous <code>year</code> model <code>up</code> will be constructed.</li>
-<li>@param selectedMilliseconds</li>
-<li>the current value of the date/time picker.</li>
-<li>@returns</li>
-<li>model containing an <code>active</code> <code>year</code> one row <code>up</code> from the specified moment in time.</li>
-<li>/
-goUp(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
-return this.getModel(moment(fromMilliseconds).subtract(5, &#39;year&#39;).valueOf(), selectedMilliseconds);
-}</li>
-</ul>
-<p>/**</p>
-<ul>
-<li>Move the <code>active</code> <code>year</code> one (1) year to the <code>left</code> of the specified moment in time.</li>
-<li></li>
-<li>The <code>active</code> year will be the January 1 <code>one (1) year before</code> the specified milliseconds.</li>
-<li>This moves the <code>active</code> date one year <code>left</code> in the current <code>year</code> view.</li>
-<li></li>
-<li>Moving <code>left</code> can result in the <code>active</code> year being part of a different quarter-century than</li>
-<li>the specified <code>fromMilliseconds</code>, in this case the quarter-century represented by the model</li>
-<li>will change to show the correct quarter-century.</li>
-<li></li>
-<li>@param fromMilliseconds</li>
-<li>the moment in time from which the <code>year</code> model to the <code>left</code> will be constructed.</li>
-<li>@param selectedMilliseconds</li>
-<li>the current value of the date/time picker.</li>
-<li>@returns</li>
-<li>model containing an <code>active</code> <code>year</code> one year to the <code>left</code> of the specified moment in time.</li>
-<li>/
-goLeft(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
-return this.getModel(moment(fromMilliseconds).subtract(1, &#39;year&#39;).valueOf(), selectedMilliseconds);
-}</li>
-</ul>
-<p>/**</p>
-<ul>
-<li>Move the <code>active</code> <code>year</code> one (1) year to the <code>right</code> of the specified moment in time.</li>
-<li></li>
-<li>The <code>active</code> year will be the January 1 <code>one (1) year after</code> the specified milliseconds.</li>
-<li>This moves the <code>active</code> date one year <code>right</code> in the current <code>year</code> view.</li>
-<li></li>
-<li>Moving <code>right</code> can result in the <code>active</code> year being part of a different quarter-century than</li>
-<li>the specified <code>fromMilliseconds</code>, in this case the quarter-century represented by the model</li>
-<li>will change to show the correct quarter-century.</li>
-<li></li>
-<li>@param fromMilliseconds</li>
-<li>the moment in time from which the <code>year</code> model to the <code>right</code> will be constructed.</li>
-<li>@param selectedMilliseconds</li>
-<li>the current value of the date/time picker.</li>
-<li>@returns</li>
-<li>model containing an <code>active</code> <code>year</code> one year to the <code>right</code> of the specified moment in time.</li>
-<li>/
-goRight(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
-return this.getModel(moment(fromMilliseconds).add(1, &#39;year&#39;).valueOf(), selectedMilliseconds);
-}</li>
-</ul>
-<p>/**</p>
-<ul>
-<li>Move the active <code>year</code> one quarter-century <code>down</code> from the specified moment in time.</li>
-<li></li>
-<li>The <code>active</code> year will be the January 1 <code>ten (10) years after</code> the specified milliseconds.</li>
-<li>This moves the <code>active</code> date one <code>page</code> <code>down</code> from the current <code>year</code> view.</li>
-<li></li>
-<li>Paging <code>down</code> will result in the <code>active</code> year being part of a different quarter-century than</li>
-<li>the specified <code>fromMilliseconds</code>. As a result, the quarter-century represented by the model</li>
-<li>will change to show the correct quarter-century.</li>
-<li></li>
-<li>@param fromMilliseconds</li>
-<li>the moment in time from which the next <code>year</code> model page <code>down</code> will be constructed.</li>
-<li>@param selectedMilliseconds</li>
-<li>the current value of the date/time picker.</li>
-<li>@returns</li>
-<li>model containing an <code>active</code> <code>year</code> one quarter-century <code>down</code> from the specified moment in time.</li>
-<li>/
-pageDown(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
-return this.getModel(moment(fromMilliseconds).add(25, &#39;year&#39;).valueOf(), selectedMilliseconds);
-}</li>
-</ul>
-<p>/**</p>
-<ul>
-<li>Move the active <code>year</code> one quarter-century <code>up</code> from the specified moment in time.</li>
-<li></li>
-<li>The <code>active</code> year will be the January 1 <code>ten (10) years before</code> the specified milliseconds.</li>
-<li>This moves the <code>active</code> date one <code>page-up</code> from the current <code>year</code> view.</li>
-<li></li>
-<li>Paging <code>up</code> will result in the <code>active</code> year being part of a different quarter-century than</li>
-<li>the specified <code>fromMilliseconds</code>. As a result, the quarter-century represented by the model</li>
-<li>will change to show the correct quarter-century.</li>
-<li></li>
-<li>@param fromMilliseconds</li>
-<li>the moment in time from which the next <code>year</code> model page <code>up</code> will be constructed.</li>
-<li>@param selectedMilliseconds</li>
-<li>the current value of the date/time picker.</li>
-<li>@returns</li>
-<li>model containing an <code>active</code> <code>year</code> one quarter-century <code>up</code> from the specified moment in time.</li>
-<li>/
-pageUp(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
-return this.getModel(moment(fromMilliseconds).subtract(25, &#39;year&#39;).valueOf(), selectedMilliseconds);
-}</li>
-</ul>
-<p>/**</p>
-<ul>
-<li>Move the <code>active</code> <code>year</code> to the <code>last</code> year in the quarter-century.</li>
-<li></li>
-<li>The view or time range will not change unless the <code>fromMilliseconds</code> value</li>
-<li>is in a different quarter-century than the displayed quarter-century.</li>
-<li></li>
-<li>@param fromMilliseconds</li>
-<li>the moment in time from which the <code>last</code> active <code>year</code> will be calculated.</li>
-<li>@param selectedMilliseconds</li>
-<li>the current value of the date/time picker.</li>
-<li>@returns</li>
-<li>a model with the <code>last</code> cell in the view as the active <code>year</code>.</li>
-<li>/
-goEnd(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
-return this.getModel(
-  QuarterCenturyYearModelProvider.getStartOfQuarterCentury(fromMilliseconds)<div><pre class="line-numbers"><code class="language-none">.add(24, &#39;years&#39;)
-.endOf(&#39;year&#39;)
-.valueOf(),</code></pre></div>  selectedMilliseconds
-);
-}</li>
-</ul>
-<p>/**</p>
-<ul>
-<li>Move the <code>active</code> <code>year</code> to the <code>first</code> year in the quarter-century.</li>
-<li></li>
-<li>The view or time range will not change unless the <code>fromMilliseconds</code> value</li>
-<li>is in a different quarter-century than the displayed quarter-century.</li>
-<li></li>
-<li>@param fromMilliseconds</li>
-<li>the moment in time from which the <code>first</code> active <code>year</code> will be calculated.</li>
-<li>@param selectedMilliseconds</li>
-<li>the current value of the date/time picker.</li>
-<li>@returns</li>
-<li>a model with the <code>first</code> cell in the view as the active <code>year</code>.</li>
-<li>/
-goHome(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
-return this.getModel(
-  QuarterCenturyYearModelProvider.getStartOfQuarterCentury(fromMilliseconds)<div><pre class="line-numbers"><code class="language-none">.startOf(&#39;year&#39;)
-.valueOf(),</code></pre></div>  selectedMilliseconds
-);
-}
-}
-```</li>
-</ul>
-</li>
-</ul>
-</li>
+<div><pre class="line-numbers"><code class="language-typescript"> /**
+  * &#64;license
+  * Copyright 2013-present Dale Lotts All Rights Reserved.
+  * http://www.dalelotts.com
+  *
+  * Use of this source code is governed by an MIT-style license that can be
+  * found in the LICENSE file at https://github.com/dalelotts/angular-bootstrap-datetimepicker/blob/master/LICENSE
+  */
+
+ import {DlDateTimePickerModel, DlModelProvider} from &#39;angular-bootstrap-datetimepicker&#39;;
+ import {SimpleChanges} from &#39;&#64;angular/core&#39;;
+ import * as _moment from &#39;moment&#39;;
+ import {Moment} from &#39;moment&#39;;
+
+ /**
+  * Work around for moment namespace conflict when used with webpack and rollup.
+  * See https://github.com/dherges/ng-packagr/issues/163
+  *
+  * Depending on whether rollup is used, moment needs to be imported differently.
+  * Since Moment.js doesn&#39;t have a default export, we normally need to import using
+  * the `* as`syntax.
+  *
+  * rollup creates a synthetic default module and we thus need to import it using
+  * the `default as` syntax.
+  *
+  * &#64;internal
+  **/
+ const moment = _moment;
+
+ /**
+  * Quarter century implementation for the `year` view.
+  */
+ export class QuarterCenturyYearModelProvider implements DlModelProvider {
+
+   /**
+    * Create a moment at midnight january 1 at the start of the quarter-century.
+    * The start of the quarter-century is always a year ending in zero or five.
+    *
+    * &#64;param fromMilliseconds
+    *  the moment in time from which the start of the quarter-century will be determined.
+    * &#64;returns
+    *  moment at midnight january 1 at the start of the current quarter-century.
+    * &#64;internal
+    */
+   private static getStartOfQuarterCentury(fromMilliseconds: number): Moment {
+     const currentYear = moment(fromMilliseconds).year();
+     const yearsToSubtract = currentYear % 25;
+     return moment({year: currentYear - yearsToSubtract}).startOf(&#39;year&#39;);
+   }
+
+   /**
+    * Receives input changes detected by Angular.
+    *
+    * &#64;param changes
+    *  the input changes detected by Angular.
+    */
+   onChanges(changes: SimpleChanges): void {
+   }
+
+   /**
+    * Returns the `year` model for the specified moment in `local` time with the
+    * `active` year set to January 1 of the specified year.
+    *
+    * The `year` model represents a quarter-century (25 years) as five rows with five columns.
+    *
+    * The quarter-century always starts on a year ending with zero or 5.
+    *
+    * Each cell represents midnight January 1 of the indicated year.
+    *
+    * The `active` year will be the January 1 of year of the specified milliseconds.
+    *
+    * &#64;param milliseconds
+    *  the moment in time from which the year model will be created.
+    * &#64;param selectedMilliseconds
+    *  the current value of the date/time picker.
+    * &#64;returns
+    *  the model representing the specified moment in time.
+    */
+   getModel(milliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+     const rowNumbers = [0, 1, 2, 3, 4];
+     const columnNumbers = [0, 1, 2, 3, 4];
+
+     const startYear = moment(milliseconds).startOf(&#39;year&#39;);
+     const startDate = QuarterCenturyYearModelProvider.getStartOfQuarterCentury(milliseconds);
+
+     const futureYear = startDate.year() + 24;
+     const pastYear = startDate.year();
+     const activeValue = startYear.valueOf();
+     const selectedValue = selectedMilliseconds === null || selectedMilliseconds === undefined
+       ? selectedMilliseconds
+       : moment(selectedMilliseconds).startOf(&#39;year&#39;).valueOf();
+
+     const result: DlDateTimePickerModel = {
+       viewName: &#39;year&#39;,
+       viewLabel: `${pastYear}-${futureYear}`,
+       activeDate: activeValue,
+       leftButton: {
+         value: moment(startDate).subtract(25, &#39;years&#39;).valueOf(),
+         ariaLabel: `Go to ${pastYear - 25}-${pastYear - 1}`,
+         classes: {},
+       },
+       rightButton: {
+         value: moment(startDate).add(25, &#39;years&#39;).valueOf(),
+         ariaLabel: `Go to ${futureYear + 1}-${futureYear + 25}`,
+         classes: {},
+       },
+       rows: rowNumbers.map(rowOfYears.bind(this))
+     };
+
+     result.leftButton.classes[`${result.leftButton.value}`] = true;
+     result.rightButton.classes[`${result.rightButton.value}`] = true;
+
+     return result;
+
+     function rowOfYears(rowNumber) {
+
+       const currentMoment = moment();
+       const cells = columnNumbers.map((columnNumber) =&gt; {
+         const yearMoment = moment(startDate).add((rowNumber * columnNumbers.length) + columnNumber, &#39;years&#39;);
+         return {
+           display: yearMoment.format(&#39;YYYY&#39;),
+           value: yearMoment.valueOf(),
+           classes: {
+             &#39;dl-abdtp-active&#39;: activeValue === yearMoment.valueOf(),
+             &#39;dl-abdtp-selected&#39;: selectedValue === yearMoment.valueOf(),
+             &#39;dl-abdtp-now&#39;: yearMoment.isSame(currentMoment, &#39;year&#39;),
+           }
+         };
+       });
+       return {cells};
+     }
+   }
+
+   /**
+    * Move the active `year` one row `down` from the specified moment in time.
+    *
+    * The `active` year will be the January 1 `five (5) years after` the specified milliseconds.
+    * This moves the `active` date one row `down` in the current `year` view.
+    *
+    * Moving `down` can result in the `active` year being part of a different quarter-century than
+    * the specified `fromMilliseconds`, in this case the quarter-century represented by the model
+    * will change to show the correct quarter-century.
+    *
+    * &#64;param fromMilliseconds
+    *  the moment in time from which the next `year` model `down` will be constructed.
+    * &#64;param selectedMilliseconds
+    *  the current value of the date/time picker.
+    * &#64;returns
+    *  model containing an `active` `year` one row `down` from the specified moment in time.
+    */
+   goDown(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+     return this.getModel(moment(fromMilliseconds).add(5, &#39;year&#39;).valueOf(), selectedMilliseconds);
+   }
+
+   /**
+    * Move the active `year` one row `up` from the specified moment in time.
+    *
+    * The `active` year will be the January 1 `five (5) years before` the specified milliseconds.
+    * This moves the `active` date one row `up` in the current `year` view.
+    *
+    * Moving `up` can result in the `active` year being part of a different quarter-century than
+    * the specified `fromMilliseconds`, in this case the quarter-century represented by the model
+    * will change to show the correct quarter-century.
+    *
+    * &#64;param fromMilliseconds
+    *  the moment in time from which the previous `year` model `up` will be constructed.
+    * &#64;param selectedMilliseconds
+    *  the current value of the date/time picker.
+    * &#64;returns
+    *  model containing an `active` `year` one row `up` from the specified moment in time.
+    */
+   goUp(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+     return this.getModel(moment(fromMilliseconds).subtract(5, &#39;year&#39;).valueOf(), selectedMilliseconds);
+   }
+
+   /**
+    * Move the `active` `year` one (1) year to the `left` of the specified moment in time.
+    *
+    * The `active` year will be the January 1 `one (1) year before` the specified milliseconds.
+    * This moves the `active` date one year `left` in the current `year` view.
+    *
+    * Moving `left` can result in the `active` year being part of a different quarter-century than
+    * the specified `fromMilliseconds`, in this case the quarter-century represented by the model
+    * will change to show the correct quarter-century.
+    *
+    * &#64;param fromMilliseconds
+    *  the moment in time from which the `year` model to the `left` will be constructed.
+    * &#64;param selectedMilliseconds
+    *  the current value of the date/time picker.
+    * &#64;returns
+    *  model containing an `active` `year` one year to the `left` of the specified moment in time.
+    */
+   goLeft(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+     return this.getModel(moment(fromMilliseconds).subtract(1, &#39;year&#39;).valueOf(), selectedMilliseconds);
+   }
+
+   /**
+    * Move the `active` `year` one (1) year to the `right` of the specified moment in time.
+    *
+    * The `active` year will be the January 1 `one (1) year after` the specified milliseconds.
+    * This moves the `active` date one year `right` in the current `year` view.
+    *
+    * Moving `right` can result in the `active` year being part of a different quarter-century than
+    * the specified `fromMilliseconds`, in this case the quarter-century represented by the model
+    * will change to show the correct quarter-century.
+    *
+    * &#64;param fromMilliseconds
+    *  the moment in time from which the `year` model to the `right` will be constructed.
+    * &#64;param selectedMilliseconds
+    *  the current value of the date/time picker.
+    * &#64;returns
+    *  model containing an `active` `year` one year to the `right` of the specified moment in time.
+    */
+   goRight(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+     return this.getModel(moment(fromMilliseconds).add(1, &#39;year&#39;).valueOf(), selectedMilliseconds);
+   }
+
+   /**
+    * Move the active `year` one quarter-century `down` from the specified moment in time.
+    *
+    * The `active` year will be the January 1 `ten (10) years after` the specified milliseconds.
+    * This moves the `active` date one `page` `down` from the current `year` view.
+    *
+    * Paging `down` will result in the `active` year being part of a different quarter-century than
+    * the specified `fromMilliseconds`. As a result, the quarter-century represented by the model
+    * will change to show the correct quarter-century.
+    *
+    * &#64;param fromMilliseconds
+    *  the moment in time from which the next `year` model page `down` will be constructed.
+    * &#64;param selectedMilliseconds
+    *  the current value of the date/time picker.
+    * &#64;returns
+    *  model containing an `active` `year` one quarter-century `down` from the specified moment in time.
+    */
+   pageDown(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+     return this.getModel(moment(fromMilliseconds).add(25, &#39;year&#39;).valueOf(), selectedMilliseconds);
+   }
+
+   /**
+    * Move the active `year` one quarter-century `up` from the specified moment in time.
+    *
+    * The `active` year will be the January 1 `ten (10) years before` the specified milliseconds.
+    * This moves the `active` date one `page-up` from the current `year` view.
+    *
+    * Paging `up` will result in the `active` year being part of a different quarter-century than
+    * the specified `fromMilliseconds`. As a result, the quarter-century represented by the model
+    * will change to show the correct quarter-century.
+    *
+    * &#64;param fromMilliseconds
+    *  the moment in time from which the next `year` model page `up` will be constructed.
+    * &#64;param selectedMilliseconds
+    *  the current value of the date/time picker.
+    * &#64;returns
+    *  model containing an `active` `year` one quarter-century `up` from the specified moment in time.
+    */
+   pageUp(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+     return this.getModel(moment(fromMilliseconds).subtract(25, &#39;year&#39;).valueOf(), selectedMilliseconds);
+   }
+
+   /**
+    * Move the `active` `year` to the `last` year in the quarter-century.
+    *
+    * The view or time range will not change unless the `fromMilliseconds` value
+    * is in a different quarter-century than the displayed quarter-century.
+    *
+    * &#64;param fromMilliseconds
+    *  the moment in time from which the `last` active `year` will be calculated.
+    * &#64;param selectedMilliseconds
+    *  the current value of the date/time picker.
+    * &#64;returns
+    *  a model with the `last` cell in the view as the active `year`.
+    */
+   goEnd(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+     return this.getModel(
+       QuarterCenturyYearModelProvider.getStartOfQuarterCentury(fromMilliseconds)
+         .add(24, &#39;years&#39;)
+         .endOf(&#39;year&#39;)
+         .valueOf(),
+       selectedMilliseconds
+     );
+   }
+
+   /**
+    * Move the `active` `year` to the `first` year in the quarter-century.
+    *
+    * The view or time range will not change unless the `fromMilliseconds` value
+    * is in a different quarter-century than the displayed quarter-century.
+    *
+    * &#64;param fromMilliseconds
+    *  the moment in time from which the `first` active `year` will be calculated.
+    * &#64;param selectedMilliseconds
+    *  the current value of the date/time picker.
+    * &#64;returns
+    *  a model with the `first` cell in the view as the active `year`.
+    */
+   goHome(fromMilliseconds: number, selectedMilliseconds: number): DlDateTimePickerModel {
+     return this.getModel(
+       QuarterCenturyYearModelProvider.getStartOfQuarterCentury(fromMilliseconds)
+         .startOf(&#39;year&#39;)
+         .valueOf(),
+       selectedMilliseconds
+     );
+   }
+ }</code></pre></div></li>
 <li><p>Override <code>DlYearModelProvider</code> with <code>QuarterCenturyYearModelProvider</code> in app.module.ts</p>
-<p> ```typescript
-   providers: [</p>
-<div><pre class="line-numbers"><code class="language-none"> FormsModule,
- {provide: DlYearModelProvider, useClass: QuarterCenturyYearModelProvider}</code></pre></div><p>   ]
- ```
- This will result in <code>QuarterCenturyYearModelProvider</code> being used in every instance of the date/time
+<div><pre class="line-numbers"><code class="language-typescript">   providers: [
+     FormsModule,
+     {provide: DlYearModelProvider, useClass: QuarterCenturyYearModelProvider}
+   ]</code></pre></div><p> This will result in <code>QuarterCenturyYearModelProvider</code> being used in every instance of the date/time
  picker in your application. </p>
 </li>
 </ol>

@@ -76,7 +76,7 @@
                 <h3>Implements</h3>
             </p>
             <p class="comment">
-                            <code><a href="../interfaces/DlModelProvider.html" target="_self" >DlModelProvider</a></code>
+                        <code><a href="../interfaces/DlModelProvider.html" target="_self" >DlModelProvider</a></code>
             </p>
 
 
@@ -139,40 +139,39 @@
 
             <section>
     
-    <h3 id="methods">
-        Methods
-    </h3>
-    <table class="table table-sm table-bordered">
-        <tbody>
-            <tr>
-                <td class="col-md-4">
-                    <a name="getModel"></a>
-                    <span class="name">
-                        <b>
+        <h3 id="methods">
+            Methods
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="getModel"></a>
+                        <span class="name">
+                            <b>
                             getModel
-                        </b>
-                        <a href="#getModel"><span class="icon ion-ios-link"></span></a>
-                    </span>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-4">
+                            </b>
+                            <a href="#getModel"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
 <code>getModel(milliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, selectedMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
-                </td>
-            </tr>
+                    </td>
+                </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="80"
-                            class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:80</a></div>
-                </td>
-            </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="80" class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:80</a></div>
+                            </td>
+                        </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-description"><p>Returns the <code>year</code> model for the specified moment in <code>local</code> time with the
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Returns the <code>year</code> model for the specified moment in <code>local</code> time with the
 <code>active</code> year set to January 1 of the specified year.</p>
 <p>The <code>year</code> model represents a decade (10 years) as two rows with five columns.</p>
 <p>The decade always starts on a year ending with zero.</p>
@@ -180,98 +179,97 @@
 <p>The <code>active</code> year will be the January 1 of year of the specified milliseconds.</p>
 </div>
 
-                    <div class="io-description">
-                        <b>Parameters :</b>
-                        <table class="params">
-                            <thead>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>Type</td>
-                                    <td>Optional</td>
-                                    <td>Description</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>milliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>milliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        No
-                                    </td>
+                                                        <td>
+                                                                <p>the moment in time from which the year model will be created.</p>
 
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>selectedMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        <p>the moment in time from which the year model will be created.</p>
+                                                        <td>
+                                                                <p>the current value of the date/time picker.</p>
 
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>selectedMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
 
-                                    <td>
-                                        No
-                                    </td>
+                            </div>
+                                <div class="io-description">
+                                    <p>the model representing the specified moment in time.</p>
 
-
-                                    <td>
-                                        <p>the current value of the date/time picker.</p>
-
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="io-description">
-                        <b>Returns : </b>        <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
-
-                    </div>
-                    <div class="io-description">
-                        <p>the model representing the specified moment in time.</p>
-
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table class="table table-sm table-bordered">
-        <tbody>
-            <tr>
-                <td class="col-md-4">
-                    <a name="goDown"></a>
-                    <span class="name">
-                        <b>
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="goDown"></a>
+                        <span class="name">
+                            <b>
                             goDown
-                        </b>
-                        <a href="#goDown"><span class="icon ion-ios-link"></span></a>
-                    </span>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-4">
+                            </b>
+                            <a href="#goDown"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
 <code>goDown(fromMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, selectedMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
-                </td>
-            </tr>
+                    </td>
+                </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="152"
-                            class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:152</a></div>
-                </td>
-            </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="152" class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:152</a></div>
+                            </td>
+                        </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-description"><p>Move the active <code>year</code> one row <code>down</code> from the specified moment in time.</p>
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Move the active <code>year</code> one row <code>down</code> from the specified moment in time.</p>
 <p>The <code>active</code> year will be the January 1 <code>five (5) years after</code> the specified milliseconds.
 This moves the <code>active</code> date one row <code>down</code> in the current <code>year</code> view.</p>
 <p>Moving <code>down</code> can result in the <code>active</code> year being part of a different decade than
@@ -279,290 +277,287 @@ the specified <code>fromMilliseconds</code>, in this case the decade represented
 will change to show the correct decade.</p>
 </div>
 
-                    <div class="io-description">
-                        <b>Parameters :</b>
-                        <table class="params">
-                            <thead>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>Type</td>
-                                    <td>Optional</td>
-                                    <td>Description</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>fromMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fromMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        No
-                                    </td>
+                                                        <td>
+                                                                <p>the moment in time from which the next <code>year</code> model <code>down</code> will be constructed.</p>
 
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>selectedMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        <p>the moment in time from which the next <code>year</code> model <code>down</code> will be constructed.</p>
+                                                        <td>
+                                                                <p>the current value of the date/time picker.</p>
 
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>selectedMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
 
-                                    <td>
-                                        No
-                                    </td>
+                            </div>
+                                <div class="io-description">
+                                    <p>model containing an <code>active</code> <code>year</code> one row <code>down</code> from the specified moment in time.</p>
 
-
-                                    <td>
-                                        <p>the current value of the date/time picker.</p>
-
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="io-description">
-                        <b>Returns : </b>        <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
-
-                    </div>
-                    <div class="io-description">
-                        <p>model containing an <code>active</code> <code>year</code> one row <code>down</code> from the specified moment in time.</p>
-
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table class="table table-sm table-bordered">
-        <tbody>
-            <tr>
-                <td class="col-md-4">
-                    <a name="goEnd"></a>
-                    <span class="name">
-                        <b>
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="goEnd"></a>
+                        <span class="name">
+                            <b>
                             goEnd
-                        </b>
-                        <a href="#goEnd"><span class="icon ion-ios-link"></span></a>
-                    </span>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-4">
+                            </b>
+                            <a href="#goEnd"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
 <code>goEnd(fromMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, selectedMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
-                </td>
-            </tr>
+                    </td>
+                </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="274"
-                            class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:274</a></div>
-                </td>
-            </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="274" class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:274</a></div>
+                            </td>
+                        </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-description"><p>Move the <code>active</code> <code>year</code> to the <code>last</code> year in the decade.</p>
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Move the <code>active</code> <code>year</code> to the <code>last</code> year in the decade.</p>
 <p>The view or time range will not change unless the <code>fromMilliseconds</code> value
 is in a different decade than the displayed decade.</p>
 </div>
 
-                    <div class="io-description">
-                        <b>Parameters :</b>
-                        <table class="params">
-                            <thead>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>Type</td>
-                                    <td>Optional</td>
-                                    <td>Description</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>fromMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fromMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        No
-                                    </td>
+                                                        <td>
+                                                                <p>the moment in time from which the <code>last</code> active <code>year</code> will be calculated.</p>
 
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>selectedMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        <p>the moment in time from which the <code>last</code> active <code>year</code> will be calculated.</p>
+                                                        <td>
+                                                                <p>the current value of the date/time picker.</p>
 
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>selectedMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
 
-                                    <td>
-                                        No
-                                    </td>
+                            </div>
+                                <div class="io-description">
+                                    <p>a model with the <code>last</code> cell in the view as the active <code>year</code>.</p>
 
-
-                                    <td>
-                                        <p>the current value of the date/time picker.</p>
-
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="io-description">
-                        <b>Returns : </b>        <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
-
-                    </div>
-                    <div class="io-description">
-                        <p>a model with the <code>last</code> cell in the view as the active <code>year</code>.</p>
-
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table class="table table-sm table-bordered">
-        <tbody>
-            <tr>
-                <td class="col-md-4">
-                    <a name="goHome"></a>
-                    <span class="name">
-                        <b>
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="goHome"></a>
+                        <span class="name">
+                            <b>
                             goHome
-                        </b>
-                        <a href="#goHome"><span class="icon ion-ios-link"></span></a>
-                    </span>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-4">
+                            </b>
+                            <a href="#goHome"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
 <code>goHome(fromMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, selectedMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
-                </td>
-            </tr>
+                    </td>
+                </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="297"
-                            class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:297</a></div>
-                </td>
-            </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="297" class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:297</a></div>
+                            </td>
+                        </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-description"><p>Move the <code>active</code> <code>year</code> to the <code>first</code> year in the decade.</p>
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Move the <code>active</code> <code>year</code> to the <code>first</code> year in the decade.</p>
 <p>The view or time range will not change unless the <code>fromMilliseconds</code> value
 is in a different decade than the displayed decade.</p>
 </div>
 
-                    <div class="io-description">
-                        <b>Parameters :</b>
-                        <table class="params">
-                            <thead>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>Type</td>
-                                    <td>Optional</td>
-                                    <td>Description</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>fromMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fromMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        No
-                                    </td>
+                                                        <td>
+                                                                <p>the moment in time from which the <code>first</code> active <code>year</code> will be calculated.</p>
 
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>selectedMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        <p>the moment in time from which the <code>first</code> active <code>year</code> will be calculated.</p>
+                                                        <td>
+                                                                <p>the current value of the date/time picker.</p>
 
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>selectedMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
 
-                                    <td>
-                                        No
-                                    </td>
+                            </div>
+                                <div class="io-description">
+                                    <p>a model with the <code>first</code> cell in the view as the active <code>year</code>.</p>
 
-
-                                    <td>
-                                        <p>the current value of the date/time picker.</p>
-
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="io-description">
-                        <b>Returns : </b>        <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
-
-                    </div>
-                    <div class="io-description">
-                        <p>a model with the <code>first</code> cell in the view as the active <code>year</code>.</p>
-
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table class="table table-sm table-bordered">
-        <tbody>
-            <tr>
-                <td class="col-md-4">
-                    <a name="goLeft"></a>
-                    <span class="name">
-                        <b>
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="goLeft"></a>
+                        <span class="name">
+                            <b>
                             goLeft
-                        </b>
-                        <a href="#goLeft"><span class="icon ion-ios-link"></span></a>
-                    </span>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-4">
+                            </b>
+                            <a href="#goLeft"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
 <code>goLeft(fromMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, selectedMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
-                </td>
-            </tr>
+                    </td>
+                </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="194"
-                            class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:194</a></div>
-                </td>
-            </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="194" class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:194</a></div>
+                            </td>
+                        </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-description"><p>Move the <code>active</code> <code>year</code> one (1) year to the <code>left</code> of the specified moment in time.</p>
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Move the <code>active</code> <code>year</code> one (1) year to the <code>left</code> of the specified moment in time.</p>
 <p>The <code>active</code> year will be the January 1 <code>one (1) year before</code> the specified milliseconds.
 This moves the <code>active</code> date one year <code>left</code> in the current <code>year</code> view.</p>
 <p>Moving <code>left</code> can result in the <code>active</code> year being part of a different decade than
@@ -570,98 +565,97 @@ the specified <code>fromMilliseconds</code>, in this case the decade represented
 will change to show the correct decade.</p>
 </div>
 
-                    <div class="io-description">
-                        <b>Parameters :</b>
-                        <table class="params">
-                            <thead>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>Type</td>
-                                    <td>Optional</td>
-                                    <td>Description</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>fromMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fromMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        No
-                                    </td>
+                                                        <td>
+                                                                <p>the moment in time from which the <code>year</code> model to the <code>left</code> will be constructed.</p>
 
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>selectedMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        <p>the moment in time from which the <code>year</code> model to the <code>left</code> will be constructed.</p>
+                                                        <td>
+                                                                <p>the current value of the date/time picker.</p>
 
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>selectedMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
 
-                                    <td>
-                                        No
-                                    </td>
+                            </div>
+                                <div class="io-description">
+                                    <p>model containing an <code>active</code> <code>year</code> one year to the <code>left</code> of the specified moment in time.</p>
 
-
-                                    <td>
-                                        <p>the current value of the date/time picker.</p>
-
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="io-description">
-                        <b>Returns : </b>        <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
-
-                    </div>
-                    <div class="io-description">
-                        <p>model containing an <code>active</code> <code>year</code> one year to the <code>left</code> of the specified moment in time.</p>
-
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table class="table table-sm table-bordered">
-        <tbody>
-            <tr>
-                <td class="col-md-4">
-                    <a name="goRight"></a>
-                    <span class="name">
-                        <b>
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="goRight"></a>
+                        <span class="name">
+                            <b>
                             goRight
-                        </b>
-                        <a href="#goRight"><span class="icon ion-ios-link"></span></a>
-                    </span>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-4">
+                            </b>
+                            <a href="#goRight"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
 <code>goRight(fromMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, selectedMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
-                </td>
-            </tr>
+                    </td>
+                </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="215"
-                            class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:215</a></div>
-                </td>
-            </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="215" class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:215</a></div>
+                            </td>
+                        </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-description"><p>Move the <code>active</code> <code>year</code> one (1) year to the <code>right</code> of the specified moment in time.</p>
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Move the <code>active</code> <code>year</code> one (1) year to the <code>right</code> of the specified moment in time.</p>
 <p>The <code>active</code> year will be the January 1 <code>one (1) year after</code> the specified milliseconds.
 This moves the <code>active</code> date one year <code>right</code> in the current <code>year</code> view.</p>
 <p>Moving <code>right</code> can result in the <code>active</code> year being part of a different decade than
@@ -669,98 +663,97 @@ the specified <code>fromMilliseconds</code>, in this case the decade represented
 will change to show the correct decade.</p>
 </div>
 
-                    <div class="io-description">
-                        <b>Parameters :</b>
-                        <table class="params">
-                            <thead>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>Type</td>
-                                    <td>Optional</td>
-                                    <td>Description</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>fromMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fromMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        No
-                                    </td>
+                                                        <td>
+                                                                <p>the moment in time from which the <code>year</code> model to the <code>right</code> will be constructed.</p>
 
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>selectedMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        <p>the moment in time from which the <code>year</code> model to the <code>right</code> will be constructed.</p>
+                                                        <td>
+                                                                <p>the current value of the date/time picker.</p>
 
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>selectedMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
 
-                                    <td>
-                                        No
-                                    </td>
+                            </div>
+                                <div class="io-description">
+                                    <p>model containing an <code>active</code> <code>year</code> one year to the <code>right</code> of the specified moment in time.</p>
 
-
-                                    <td>
-                                        <p>the current value of the date/time picker.</p>
-
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="io-description">
-                        <b>Returns : </b>        <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
-
-                    </div>
-                    <div class="io-description">
-                        <p>model containing an <code>active</code> <code>year</code> one year to the <code>right</code> of the specified moment in time.</p>
-
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table class="table table-sm table-bordered">
-        <tbody>
-            <tr>
-                <td class="col-md-4">
-                    <a name="goUp"></a>
-                    <span class="name">
-                        <b>
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="goUp"></a>
+                        <span class="name">
+                            <b>
                             goUp
-                        </b>
-                        <a href="#goUp"><span class="icon ion-ios-link"></span></a>
-                    </span>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-4">
+                            </b>
+                            <a href="#goUp"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
 <code>goUp(fromMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, selectedMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
-                </td>
-            </tr>
+                    </td>
+                </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="173"
-                            class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:173</a></div>
-                </td>
-            </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="173" class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:173</a></div>
+                            </td>
+                        </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-description"><p>Move the active <code>year</code> one row <code>up</code> from the specified moment in time.</p>
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Move the active <code>year</code> one row <code>up</code> from the specified moment in time.</p>
 <p>The <code>active</code> year will be the January 1 <code>five (5) years before</code> the specified milliseconds.
 This moves the <code>active</code> date one row <code>up</code> in the current <code>year</code> view.</p>
 <p>Moving <code>up</code> can result in the <code>active</code> year being part of a different decade than
@@ -768,175 +761,173 @@ the specified <code>fromMilliseconds</code>, in this case the decade represented
 will change to show the correct decade.</p>
 </div>
 
-                    <div class="io-description">
-                        <b>Parameters :</b>
-                        <table class="params">
-                            <thead>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>Type</td>
-                                    <td>Optional</td>
-                                    <td>Description</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>fromMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fromMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        No
-                                    </td>
+                                                        <td>
+                                                                <p>the moment in time from which the previous <code>year</code> model <code>up</code> will be constructed.</p>
 
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>selectedMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        <p>the moment in time from which the previous <code>year</code> model <code>up</code> will be constructed.</p>
+                                                        <td>
+                                                                <p>the current value of the date/time picker.</p>
 
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>selectedMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
 
-                                    <td>
-                                        No
-                                    </td>
+                            </div>
+                                <div class="io-description">
+                                    <p>model containing an <code>active</code> <code>year</code> one row <code>up</code> from the specified moment in time.</p>
 
-
-                                    <td>
-                                        <p>the current value of the date/time picker.</p>
-
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="io-description">
-                        <b>Returns : </b>        <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
-
-                    </div>
-                    <div class="io-description">
-                        <p>model containing an <code>active</code> <code>year</code> one row <code>up</code> from the specified moment in time.</p>
-
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table class="table table-sm table-bordered">
-        <tbody>
-            <tr>
-                <td class="col-md-4">
-                    <a name="onChanges"></a>
-                    <span class="name">
-                        <b>
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="onChanges"></a>
+                        <span class="name">
+                            <b>
                             onChanges
-                        </b>
-                        <a href="#onChanges"><span class="icon ion-ios-link"></span></a>
-                    </span>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-4">
+                            </b>
+                            <a href="#onChanges"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
 <code>onChanges(changes: <a href="https://angular.io/api/core/SimpleChanges" target="_blank">SimpleChanges</a>)</code>
-                </td>
-            </tr>
+                    </td>
+                </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="58"
-                            class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:58</a></div>
-                </td>
-            </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:58</a></div>
+                            </td>
+                        </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-description"><p>Receives input changes detected by Angular.</p>
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Receives input changes detected by Angular.</p>
 </div>
 
-                    <div class="io-description">
-                        <b>Parameters :</b>
-                        <table class="params">
-                            <thead>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>Type</td>
-                                    <td>Optional</td>
-                                    <td>Description</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>changes</td>
-                                    <td>
-                                                <code><a href="https://angular.io/api/core/SimpleChanges" target="_blank" >SimpleChanges</a></code>
-                                    </td>
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>changes</td>
+                                                        <td>
+                                                                    <code><a href="https://angular.io/api/core/SimpleChanges" target="_blank" >SimpleChanges</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        No
-                                    </td>
+                                                        <td>
+                                                                <p>the input changes detected by Angular.</p>
 
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
 
-                                    <td>
-                                        <p>the input changes detected by Angular.</p>
-
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="io-description">
-                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
-
-                    </div>
-                    <div class="io-description">
-                        
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table class="table table-sm table-bordered">
-        <tbody>
-            <tr>
-                <td class="col-md-4">
-                    <a name="pageDown"></a>
-                    <span class="name">
-                        <b>
+                            </div>
+                                <div class="io-description">
+                                    
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="pageDown"></a>
+                        <span class="name">
+                            <b>
                             pageDown
-                        </b>
-                        <a href="#pageDown"><span class="icon ion-ios-link"></span></a>
-                    </span>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-4">
+                            </b>
+                            <a href="#pageDown"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
 <code>pageDown(fromMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, selectedMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
-                </td>
-            </tr>
+                    </td>
+                </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="236"
-                            class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:236</a></div>
-                </td>
-            </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="236" class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:236</a></div>
+                            </td>
+                        </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-description"><p>Move the active <code>year</code> one decade <code>down</code> from the specified moment in time.</p>
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Move the active <code>year</code> one decade <code>down</code> from the specified moment in time.</p>
 <p>The <code>active</code> year will be the January 1 <code>ten (10) years after</code> the specified milliseconds.
 This moves the <code>active</code> date one <code>page</code> <code>down</code> from the current <code>year</code> view.</p>
 <p>Paging <code>down</code> will result in the <code>active</code> year being part of a different decade than
@@ -944,98 +935,97 @@ the specified <code>fromMilliseconds</code>. As a result, the decade represented
 will change to show the correct decade.</p>
 </div>
 
-                    <div class="io-description">
-                        <b>Parameters :</b>
-                        <table class="params">
-                            <thead>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>Type</td>
-                                    <td>Optional</td>
-                                    <td>Description</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>fromMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fromMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        No
-                                    </td>
+                                                        <td>
+                                                                <p>the moment in time from which the next <code>year</code> model page <code>down</code> will be constructed.</p>
 
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>selectedMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        <p>the moment in time from which the next <code>year</code> model page <code>down</code> will be constructed.</p>
+                                                        <td>
+                                                                <p>the current value of the date/time picker.</p>
 
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>selectedMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
 
-                                    <td>
-                                        No
-                                    </td>
+                            </div>
+                                <div class="io-description">
+                                    <p>model containing an <code>active</code> <code>year</code> one decade <code>down</code> from the specified moment in time.</p>
 
-
-                                    <td>
-                                        <p>the current value of the date/time picker.</p>
-
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="io-description">
-                        <b>Returns : </b>        <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
-
-                    </div>
-                    <div class="io-description">
-                        <p>model containing an <code>active</code> <code>year</code> one decade <code>down</code> from the specified moment in time.</p>
-
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <table class="table table-sm table-bordered">
-        <tbody>
-            <tr>
-                <td class="col-md-4">
-                    <a name="pageUp"></a>
-                    <span class="name">
-                        <b>
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="pageUp"></a>
+                        <span class="name">
+                            <b>
                             pageUp
-                        </b>
-                        <a href="#pageUp"><span class="icon ion-ios-link"></span></a>
-                    </span>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-4">
+                            </b>
+                            <a href="#pageUp"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
 <code>pageUp(fromMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, selectedMilliseconds: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>)</code>
-                </td>
-            </tr>
+                    </td>
+                </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-line">Defined in <a href="" data-line="257"
-                            class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:257</a></div>
-                </td>
-            </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="257" class="link-to-prism">src/lib/dl-date-time-picker/dl-model-provider-year.ts:257</a></div>
+                            </td>
+                        </tr>
 
 
-            <tr>
-                <td class="col-md-4">
-                    <div class="io-description"><p>Move the active <code>year</code> one decade <code>up</code> from the specified moment in time.</p>
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Move the active <code>year</code> one decade <code>up</code> from the specified moment in time.</p>
 <p>The <code>active</code> year will be the January 1 <code>ten (10) years before</code> the specified milliseconds.
 This moves the <code>active</code> date one <code>page-up</code> from the current <code>year</code> view.</p>
 <p>Paging <code>up</code> will result in the <code>active</code> year being part of a different decade than
@@ -1043,68 +1033,69 @@ the specified <code>fromMilliseconds</code>. As a result, the decade represented
 will change to show the correct decade.</p>
 </div>
 
-                    <div class="io-description">
-                        <b>Parameters :</b>
-                        <table class="params">
-                            <thead>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>Type</td>
-                                    <td>Optional</td>
-                                    <td>Description</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>fromMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                            <div class="io-description">
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                                    <td>Description</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fromMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        No
-                                    </td>
+                                                        <td>
+                                                                <p>the moment in time from which the next <code>year</code> model page <code>up</code> will be constructed.</p>
 
+                                                        </td>
+                                                </tr>
+                                                <tr>
+                                                        <td>selectedMilliseconds</td>
+                                                        <td>
+                                                                    <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                                        </td>
+                                                    
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
 
-                                    <td>
-                                        <p>the moment in time from which the next <code>year</code> model page <code>up</code> will be constructed.</p>
+                                                        <td>
+                                                                <p>the current value of the date/time picker.</p>
 
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>selectedMilliseconds</td>
-                                    <td>
-                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
-                                    </td>
+                                                        </td>
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                            <div>
+                            </div>
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
 
-                                    <td>
-                                        No
-                                    </td>
+                            </div>
+                                <div class="io-description">
+                                    <p>model containing an <code>active</code> <code>year</code> one decade <code>up</code> from the specified moment in time.</p>
 
-
-                                    <td>
-                                        <p>the current value of the date/time picker.</p>
-
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="io-description">
-                        <b>Returns : </b>        <code><a href="../interfaces/DlDateTimePickerModel.html" target="_self" >DlDateTimePickerModel</a></code>
-
-                    </div>
-                    <div class="io-description">
-                        <p>model containing an <code>active</code> <code>year</code> one decade <code>up</code> from the specified moment in time.</p>
-
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+                                </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 </section>
+
 
 
 
