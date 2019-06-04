@@ -242,6 +242,12 @@ export class DlDateTimePickerComponent<D> implements OnChanges, OnInit, ControlV
   startDate: number;
 
   /**
+   *  Minimal available Date for selection.
+   */
+  @Input()
+  minDate: Date;
+
+  /**
    * The initial view that the date/time picker will show.
    * The picker will also return to this view after a date/time
    * is selected.
@@ -356,7 +362,7 @@ export class DlDateTimePickerComponent<D> implements OnChanges, OnInit, ControlV
     if (this.selectFilter) {
       model.rows = model.rows.map((row) => {
         row.cells.map((dateButton: DateButton) => {
-          const disabled = !this.selectFilter(dateButton, model.viewName);
+          const disabled = !this.selectFilter(dateButton, model.viewName) || !this.isDateButtonValid(dateButton);
           dateButton.classes['dl-abdtp-disabled'] = disabled;
           if (disabled) {
             dateButton.classes['aria-disabled'] = true;
@@ -368,6 +374,27 @@ export class DlDateTimePickerComponent<D> implements OnChanges, OnInit, ControlV
     }
 
     return model;
+  }
+
+  /**
+   * Checking if `DateButton` matches minimal date
+   * and it's available for selection in picker
+   * and return `true` if it is valid.
+   *
+   * @param dateButton `DateButton`
+   *
+   * @returns
+   *  `true` or `false` after checking
+   *  if date is available for selection.
+   *
+   * @internal
+   */
+  private isDateButtonValid(dateButton): boolean {
+    if (this.minDate) {
+      return moment(dateButton.value).isSameOrAfter(this.minDate);
+    }
+
+    return true;
   }
 
   /**
